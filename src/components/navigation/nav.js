@@ -90,7 +90,8 @@ const NavigationLinks = styled.nav`
     transform: translateY(3px);
   }
   .submenu ul li a {
-    padding-right: 30px;
+    margin: 0;
+    padding-right: 15px;
   }
 
   /* show on desktop */

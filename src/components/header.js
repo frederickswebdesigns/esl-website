@@ -1,17 +1,18 @@
 import PropTypes from "prop-types"
-import React from "react"
-
+import React, { useState } from "react"
+import Burger from "./navigation/burger"
 import Nav from "./navigation/nav"
 import styled from "styled-components"
 import DbydCert from "./gatsbyimages/dbydCert"
 import CallNow from "./callNow"
 import AnimatedSvg from "./animatedSvg"
+import Menu from "./navigation/menu"
 const HeaderContainer = styled.header`
   width: 100%;
   background: #fff;
   position: fixed;
   top: 0;
-  z-index: 9999999;
+  z-index: 999;
   box-shadow: 0px 4px 9px -7px rgba(0, 3, 51, 1);
   @media only screen and (min-width: 768px) {
     position: static;
@@ -40,6 +41,7 @@ const HeaderSection = styled.div`
 `
 
 const Header = ({ siteTitle }) => {
+  const [open, setOpen] = useState(false)
   return (
     <HeaderContainer>
       <HeaderWrapper>
@@ -52,6 +54,10 @@ const Header = ({ siteTitle }) => {
         </HeaderSection>
       </HeaderWrapper>
       <Nav />
+      <div>
+        <Burger open={open} setOpen={setOpen} />
+        <Menu open={open} setOpen={setOpen} />
+      </div>
     </HeaderContainer>
   )
 }

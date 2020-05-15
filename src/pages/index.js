@@ -19,6 +19,7 @@ const IndexPage = () => (
             color: "#dc2e22",
             fontWeight: "900",
             textAlign: "center",
+            fontFamily: "Neo Sans Bold Italic",
           }}
         >
           Expert Service Locating is a Queensland based underground service
@@ -43,6 +44,7 @@ const IndexPage = () => (
             color: "#dc2e22",
             fontWeight: "900",
             textAlign: "center",
+            fontFamily: "Neo Sans Bold Italic",
           }}
         >
           Stop! Don’t damage a service or worse, we’ll locate it first!
