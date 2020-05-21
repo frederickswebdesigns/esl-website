@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 
-import SmallLogo from "../gatsbyimages/smallLogo"
 import AnimatedSvg from "../animatedSvg"
 
 const NavigationLinks = styled.nav`

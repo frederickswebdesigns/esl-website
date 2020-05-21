@@ -6,14 +6,12 @@ const Razor = styled.div`
 
   background: ${props => props.background || "#fff"};
   box-sizing: border-box;
-  padding: 100px 1.0875rem 100px;
-
+  padding: 100px 1.0875rem 0px;
   z-index: 10;
   h2 {
-    font-family: "Neo Sans Bold Italic";
     text-align: center;
   }
-  font-family: "Source Sans Pro";
+
   color: #000333;
 
   div {

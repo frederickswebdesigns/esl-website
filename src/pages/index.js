@@ -3,29 +3,39 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/gatsbyimages/image"
 import SEO from "../components/seo"
-import HomeHero from "../components/gatsbyimages/homeHero"
+
 import Razor from "../components/containers/razorContainer"
+import DollarIcon from "../images/dollar-icon.svg"
+import CheckIcon from "../images/check-icon.svg"
+import BullseyeIcon from "../images/bullseye-icon.svg"
 
 import IconContainer from "../components/containers/iconContainer"
+import StyledHomeBackground from "../components/backgroundimages/homeHero"
+import ImageBlock from "../components/gatsbyimages/imageBlock"
+import StyledBlockBackground from "../components/backgroundimages/blockBackground"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <HomeHero />
+    <StyledHomeBackground />
     <Razor>
       <div>
-        <h2>Professional Underground Utility Locating Service</h2>
+        <h2 style={{ color: "#dc2e22" }}>
+          Professional Underground Utility Locating Service
+        </h2>
         <p
           style={{
-            color: "#dc2e22",
+            color: "",
             fontWeight: "900",
+
             textAlign: "center",
             fontFamily: "Neo Sans Bold Italic",
           }}
         >
-          Expert Service Locating is a Queensland based underground service
-          locating company with over 17 years of trusted industry knowledge and
-          experience.
+          Expert Service Locating is a Queensland & Northern NSW based
+          underground service locating company with over 17 years of trusted
+          industry knowledge and experience locating underground assets.
         </p>
+
         <p>
           At Expert Service Locating we offer an array of underground location
           services while using the latest underground locating technologies. We
@@ -36,12 +46,12 @@ const IndexPage = () => (
         </p>
       </div>
     </Razor>
-    <Razor skew="skewY(4deg)">
+    <StyledBlockBackground />
+    <Razor>
       <IconContainer>
         <h2>Underground Utility Locators</h2>
         <p
           style={{
-            color: "#dc2e22",
             fontWeight: "900",
             textAlign: "center",
             fontFamily: "Neo Sans Bold Italic",
@@ -51,7 +61,8 @@ const IndexPage = () => (
         </p>
         <div className="iconWrapper">
           <div>
-            <h3>Expert</h3>
+            <img src={CheckIcon} alt="Checkmark icon" />
+            <h3>Expert Locators</h3>
 
             <p>
               We have been providing the highest quality underground service
@@ -63,7 +74,8 @@ const IndexPage = () => (
             </p>
           </div>
           <div>
-            <h3>Accurate</h3>
+            <img src={BullseyeIcon} alt="Bullseye icon" />
+            <h3>Accurate Locations</h3>
             <p>
               By using multiple state-of-the-art electromagnetic underground
               service location technologies, we provide you with the most
@@ -74,15 +86,15 @@ const IndexPage = () => (
             </p>
           </div>
           <div>
-            <h3>Savings</h3>
+            <img src={DollarIcon} alt="Dollar sign logo" />
+            <h3>Project Savings</h3>
             <p>
-              Goin’ to the pokies is fun, but gambling with the location of your
-              underground services is never a good idea. Accidentally hitting an
-              underground service line due to negligence can not only be
-              extremely costly and timely, but it also puts you and your team at
-              risk for injury. Our team of fully certified underground service
-              locators will help minimise your risk and get the job done
-              promptly and accurately.
+              Gambling with the location of your underground services is never a
+              good idea. Accidentally hitting an underground service line due to
+              negligence can not only be extremely costly and timely, but it
+              also puts you and your team at risk for injury. Our team of fully
+              certified underground service locators will help minimise your
+              risk and get the job done promptly and accurately.
             </p>
           </div>
         </div>

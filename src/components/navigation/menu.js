@@ -1,11 +1,13 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
-const StyledMenu = styled.nav`
+import { motion } from "framer-motion"
+
+const StyledMenu = styled(motion.nav)`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #dc2e22;
+  background: rgba(0, 0, 0, 0.7);
   height: 100vh;
   width: 100%;
   text-align: right;
@@ -13,8 +15,8 @@ const StyledMenu = styled.nav`
   position: absolute;
   top: 0;
   right: 0;
-  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
-  transition: transform 0.3s ease-in-out;
+  ${"" /* transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")}; */}
+  ${"" /* transition: transform 0.3s ease-in-out; */}
 
   a {
     font-family: "Neo Sans Bold Italic";
@@ -22,28 +24,91 @@ const StyledMenu = styled.nav`
     text-transform: uppercase;
     padding: 1.5rem 1rem;
     font-weight: bold;
-
+    cursor: pointer;
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s linear;
+    ${"" /* transition: color 0.3s linear; */}
 
     &:hover {
-      color: #000333;
+      color: #dc2e22;
+    }
+  }
+  .submenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    a {
+      font-size: 14px;
+      padding: 10px;
     }
   }
   @media only screen and (min-width: 768px) {
     display: none;
   }
 `
+const activeStyle = {
+  color: "#dc2e22",
+}
 
-const Menu = ({ open }) => (
-  <StyledMenu open={open}>
-    <Link to="/">Home</Link>
-    <Link to="/">About us</Link>
-    <Link to="/">Underground Locating Services</Link>
-    <Link to="/">Locating Methods</Link>
-    <Link to="/">Contact</Link>
-  </StyledMenu>
-)
+const Menu = ({ open }) => {
+  return (
+    <StyledMenu
+      transition={{
+        type: "spring",
+
+        damping: 20,
+      }}
+      initial={false}
+      animate={{ x: open ? "0" : "100%" }}
+    >
+      <Link activeStyle={activeStyle} to="/">
+        Home
+      </Link>
+
+      <Link activeStyle={activeStyle} to="/about">
+        About us
+      </Link>
+      <Link activeStyle={activeStyle} to="/underground-locating-services">
+        Underground Locating Services
+      </Link>
+      {/* <div className="submenu">
+        <Link activeStyle={activeStyle} to="/underground-locating-services">
+          Underground Utility Locating Service
+        </Link>
+        <Link
+          activeStyle={activeStyle}
+          to="/underground-locating-services/water-pipe"
+        >
+          Cable And Pipe Locating
+        </Link>
+        <Link activeStyle={activeStyle} to="/underground-locating-services">
+          Power Line Locating
+        </Link>
+        <Link activeStyle={activeStyle} to="/underground-locating-services">
+          Water Locating Services
+        </Link>
+        <Link activeStyle={activeStyle} to="/underground-locating-services">
+          Water Locating Services
+        </Link>
+        <Link activeStyle={activeStyle} to="/underground-locating-services">
+          Water Locating Services
+        </Link>
+        <Link activeStyle={activeStyle} to="/underground-locating-services">
+          Water Locating Services
+        </Link>
+        <Link activeStyle={activeStyle} to="/underground-locating-services">
+          Water Locating Services
+        </Link>
+      </div> */}
+
+      <Link activeStyle={activeStyle} to="/methods">
+        Locating Methods
+      </Link>
+      <Link activeStyle={activeStyle} to="/contact">
+        Contact
+      </Link>
+    </StyledMenu>
+  )
+}
 
 export default Menu

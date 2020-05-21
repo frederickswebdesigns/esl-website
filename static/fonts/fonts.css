@@ -1,4 +1,5 @@
 @font-face {
   font-family: "Neo Sans Bold Italic";
   src: url("NeoSans-BoldItalic.woff");
+  font-display: swap;
 }
