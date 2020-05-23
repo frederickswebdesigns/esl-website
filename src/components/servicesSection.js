@@ -44,7 +44,6 @@ const ServicesBlock = () => (
       whileTap={{ x: -50, opacity: 0.5 }}
     >
       <UULSimg />
-
       <div>
         <h3>Underground Utility Locating Services</h3>
         <p>

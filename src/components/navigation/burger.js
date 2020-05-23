@@ -24,7 +24,7 @@ const StyledBurger = styled(motion.button)`
   div {
     width: 2rem;
     height: 0.25rem;
-    ${"" /* background: ${({ open }) => (open ? "#fff" : "#000333")}; */}
+    background: ${({ open }) => (open ? "#fff" : "#000333")};
     border-radius: 10px;
     ${"" /* transition: all 0.3s linear; */}
     position: relative;
@@ -54,20 +54,17 @@ const Burger = ({ open, setOpen }) => {
       <motion.div
         animate={{
           rotate: open ? 45 : 0,
-          background: open ? "#fff" : "#000333",
         }}
       />
       <motion.div
         animate={{
           x: open ? 20 : 0,
           opacity: open ? 0 : 1,
-          background: open ? "#fff" : "#000333",
         }}
       />
       <motion.div
         animate={{
           rotate: open ? -45 : 0,
-          background: open ? "#fff" : "#000333",
         }}
       />
     </StyledBurger>
