@@ -13,14 +13,14 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const DbydCert = () => {
+const DbydCert = ({ size }) => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(
         relativePath: { eq: "dbyd-certified-locator.png" }
       ) {
         childImageSharp {
-          fixed(height: 40) {
+          fixed(height: 70) {
             ...GatsbyImageSharpFixed_tracedSVG
           }
         }

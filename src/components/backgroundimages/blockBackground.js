@@ -3,6 +3,7 @@ import { graphql, StaticQuery, Link } from "gatsby"
 import styled from "styled-components"
 
 import BackgroundImage from "gatsby-background-image"
+import DbydCert from "../gatsbyimages/dbydCert"
 
 const BackgroundSection = ({ className }) => (
   <StaticQuery
@@ -27,7 +28,7 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-          <div></div>
+          <div className="overlay"></div>
         </BackgroundImage>
       )
     }}
@@ -42,12 +43,21 @@ const StyledBlockBackground = styled(BackgroundSection)`
   background-repeat: repeat-y;
   background-size: cover;
   position: relative;
-
-  div {
-    background: rgba(0, 3, 51, 0.4);
+  border-top: solid 25px #eee;
+  .overlay {
+    background: rgba(0, 0, 0, 0.2);
     position: absolute;
     width: 100%;
     height: 100%;
+
+    display: flex;
+    font-weight: 900;
+    flex-direction: column;
+    justify-content: center;
+    div {
+      max-width: 1208px;
+      margin: 0 auto;
+    }
   }
 `
 

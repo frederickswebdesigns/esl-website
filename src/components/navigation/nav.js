@@ -114,7 +114,7 @@ const Nav = () => {
   }, [scrollTop])
 
   return (
-    <NavigationLinks className={scrollTop > 112 ? "scrolled" : "notScrolled"}>
+    <NavigationLinks className={scrollTop > 143 ? "scrolled" : "notScrolled"}>
       {/* <Logo className="logo" /> */}
 
       <div className="nav-wrapper">

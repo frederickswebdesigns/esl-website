@@ -16,7 +16,7 @@ const pulse = keyframes`
   }
 `
 const SvgContainer = styled.div`
-  width: 150px;
+  width: 175px;
   svg {
     display: block;
   }

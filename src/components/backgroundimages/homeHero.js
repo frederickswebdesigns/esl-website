@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 import BackgroundImage from "gatsby-background-image"
 import DbydCert from "../gatsbyimages/dbydCert"
-
+import { motion } from "framer-motion"
 const BackgroundSection = ({ className }) => (
   <StaticQuery
     query={graphql`
@@ -31,7 +31,6 @@ const BackgroundSection = ({ className }) => (
           <div className="container">
             <div className="wrapper">
               <h1>Underground Service Locators Brisbane, Gold Coast</h1>{" "}
-              <DbydCert />
               <p>
                 Dig with Confidence. Know what's Underground. Our cable, pipe &
                 utility locating service is a process in which public and
@@ -83,7 +82,7 @@ const StyledHomeBackground = styled(BackgroundSection)`
     margin: 0 auto;
     padding: 14% 0;
     height: 100%;
-    background: rgba(0, 3, 51, 0.4);
+    background: rgba(0, 0, 0, 0.2);
     width: 100%;
 
     ${"" /* font-weight: 900; */}
@@ -103,7 +102,7 @@ const StyledHomeBackground = styled(BackgroundSection)`
   }
   @media only screen and (min-width: 768px) {
     margin-top: 0px;
-    height: 100vh;
+    height: 70vh;
   }
 `
 

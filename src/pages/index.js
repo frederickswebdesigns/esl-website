@@ -11,14 +11,15 @@ import BullseyeIcon from "../images/bullseye-icon.svg"
 
 import IconContainer from "../components/containers/iconContainer"
 import StyledHomeBackground from "../components/backgroundimages/homeHero"
-import ImageBlock from "../components/gatsbyimages/imageBlock"
+
 import StyledBlockBackground from "../components/backgroundimages/blockBackground"
+import ServicesBlock from "../components/servicesSection"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <StyledHomeBackground />
     <Razor>
-      <div>
+      <div className="content">
         <h2 style={{ color: "#dc2e22" }}>
           Professional Underground Utility Locating Service
         </h2>
@@ -100,9 +101,23 @@ const IndexPage = () => (
         </div>
       </IconContainer>
     </Razor>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <Razor>
+      <div className="content">
+        <h2 style={{ color: "#dc2e22" }}>Our Locating Services</h2>
+        <p
+          style={{
+            fontWeight: "900",
+            textAlign: "center",
+            fontFamily: "Neo Sans Bold Italic",
+          }}
+        >
+          Helping you Reduce Damage, Save Money and Improve Safety by locating
+          your underground utility services before you dig.
+          <br /> Because after all, its what’s underneath that matters most!
+        </p>
+        <ServicesBlock />
+      </div>
+    </Razor>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

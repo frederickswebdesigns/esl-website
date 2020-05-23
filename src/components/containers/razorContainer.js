@@ -6,7 +6,7 @@ const Razor = styled.div`
 
   background: ${props => props.background || "#fff"};
   box-sizing: border-box;
-  padding: 100px 1.0875rem 0px;
+  padding: 50px 1.0875rem 0px;
   z-index: 10;
   h2 {
     text-align: center;
@@ -14,7 +14,7 @@ const Razor = styled.div`
 
   color: #000333;
 
-  div {
+  .content {
     width: 100%;
     max-width: 1208px;
     margin: 0 auto;
