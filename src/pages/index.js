@@ -1,17 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/gatsbyimages/image"
 import SEO from "../components/seo"
-
 import Razor from "../components/containers/razorContainer"
 import DollarIcon from "../images/dollar-icon.svg"
 import CheckIcon from "../images/check-icon.svg"
 import BullseyeIcon from "../images/bullseye-icon.svg"
-
 import IconContainer from "../components/containers/iconContainer"
 import StyledHomeBackground from "../components/backgroundimages/homeHero"
-
 import ImageBlock from "../components/gatsbyimages/imageBlock"
 import ServicesBlock from "../components/servicesSection"
 import ImageBlockTwo from "../components/gatsbyimages/imageBlock2"
