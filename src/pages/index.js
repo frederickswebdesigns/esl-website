@@ -12,8 +12,11 @@ import BullseyeIcon from "../images/bullseye-icon.svg"
 import IconContainer from "../components/containers/iconContainer"
 import StyledHomeBackground from "../components/backgroundimages/homeHero"
 
-import StyledBlockBackground from "../components/backgroundimages/blockBackground"
+import ImageBlock from "../components/gatsbyimages/imageBlock"
 import ServicesBlock from "../components/servicesSection"
+import ImageBlockTwo from "../components/gatsbyimages/imageBlock2"
+import AssetBlock from "../components/assetSection"
+import CertBlock from "../components/certSection"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -47,7 +50,8 @@ const IndexPage = () => (
         </p>
       </div>
     </Razor>
-    <StyledBlockBackground />
+    {/* <StyledBlockBackground /> */}
+    <ImageBlock />
     <Razor>
       <IconContainer>
         <h2>Underground Utility Locators</h2>
@@ -101,6 +105,7 @@ const IndexPage = () => (
         </div>
       </IconContainer>
     </Razor>
+    <ImageBlockTwo />
     <Razor>
       <div className="content">
         <h2 style={{ color: "#dc2e22" }}>Our Locating Services</h2>
@@ -118,6 +123,8 @@ const IndexPage = () => (
         <ServicesBlock />
       </div>
     </Razor>
+    <AssetBlock />
+    <CertBlock />
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

@@ -3,8 +3,7 @@ import { graphql, StaticQuery, Link } from "gatsby"
 import styled from "styled-components"
 
 import BackgroundImage from "gatsby-background-image"
-import DbydCert from "../gatsbyimages/dbydCert"
-import { motion } from "framer-motion"
+
 const BackgroundSection = ({ className }) => (
   <StaticQuery
     query={graphql`
@@ -32,10 +31,10 @@ const BackgroundSection = ({ className }) => (
             <div className="wrapper">
               <h1>Underground Service Locators Brisbane, Gold Coast</h1>{" "}
               <p>
-                Dig with Confidence. Know what's Underground. Our cable, pipe &
-                utility locating service is a process in which public and
-                private utility mains are identified and marked out. We provide
-                this service in South East QLD & <strong>Northern NSW</strong>.
+                Need to know the location of your underground assets? We provide
+                underground cable and pipe location services throughout
+                Brisbane, Gold Coast and Northern NSW. Know what’s underground.
+                Dig with confidence.
               </p>
               <Link className="red" to="/">
                 Call Now
@@ -54,18 +53,20 @@ const BackgroundSection = ({ className }) => (
 const StyledHomeBackground = styled(BackgroundSection)`
   width: 100%;
   margin-top: 83px;
-  height: 500px;
+  height: 100vh;
   background-position: bottom center;
   background-repeat: repeat-y;
   background-size: cover;
   position: relative;
-  padding: 7% 0;
+  padding: 14% 0;
   a {
     display: inline-block;
     margin: 1.45rem 10px;
     color: white;
     text-decoration: none;
-
+    font-family: "Neo Sans Bold Italic", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 15px 25px;
     border-radius: 15px;
   }
@@ -80,7 +81,7 @@ const StyledHomeBackground = styled(BackgroundSection)`
     top: 0;
     position: absolute;
     margin: 0 auto;
-    padding: 14% 0;
+    padding: 18% 0;
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -102,7 +103,7 @@ const StyledHomeBackground = styled(BackgroundSection)`
   }
   @media only screen and (min-width: 768px) {
     margin-top: 0px;
-    height: 70vh;
+    height: 100vh;
   }
 `
 

@@ -13,11 +13,11 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const ImageBlock = () => {
+const ImageBlockTwo = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(
-        relativePath: { eq: "underground-service-locator.jpg" }
+        relativePath: { eq: "underground-locating-tracer.JPG" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1920) {
@@ -33,10 +33,10 @@ const ImageBlock = () => {
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
         style={{ width: "100%", height: "500px", borderTop: "solid 25px #eee" }}
-        alt="Electromagnetic Underground service locator"
+        alt="Locating underground pipes with tracer wire"
       />
     </div>
   )
 }
 
-export default ImageBlock
+export default ImageBlockTwo

@@ -13,15 +13,15 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const ImageBlock = () => {
+const TelstraCert = ({ size }) => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(
-        relativePath: { eq: "underground-service-locator.jpg" }
+        relativePath: { eq: "telstra-accredited-locator.png" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
-            ...GatsbyImageSharpFluid
+          fixed(height: 50) {
+            ...GatsbyImageSharpFixed_tracedSVG
           }
         }
       }
@@ -29,14 +29,11 @@ const ImageBlock = () => {
   `)
 
   return (
-    <div>
-      <Img
-        fluid={data.placeholderImage.childImageSharp.fluid}
-        style={{ width: "100%", height: "500px", borderTop: "solid 25px #eee" }}
-        alt="Electromagnetic Underground service locator"
-      />
-    </div>
+    <Img
+      fixed={data.placeholderImage.childImageSharp.fixed}
+      alt="Telstra Accredited Underground Locator"
+    />
   )
 }
 
-export default ImageBlock
+export default TelstraCert

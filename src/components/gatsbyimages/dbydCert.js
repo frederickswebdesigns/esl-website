@@ -20,7 +20,7 @@ const DbydCert = ({ size }) => {
         relativePath: { eq: "dbyd-certified-locator.png" }
       ) {
         childImageSharp {
-          fixed(height: 70) {
+          fixed(height: 50) {
             ...GatsbyImageSharpFixed_tracedSVG
           }
         }

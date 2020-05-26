@@ -21,8 +21,8 @@ ${
   }
   h1,
   h2,
-  h3, a {
-    font-family: "Neo Sans Bold Italic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+  h3 {
+    font-family: "Neo Sans Bold Italic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-rendering: optimizeLegibility;
     
   }
