@@ -29,9 +29,9 @@ const StyledCertContainer = styled.div`
     }
     div {
       .content {
-        max-width: 450px;
-        width: 90%;
-        margin: 50px auto;
+        ${"" /* max-width: 500px;
+        width: 90%; */}
+        margin: 50px auto 0px 50px;
         .gatsby-image-wrapper {
           margin: 1rem;
         }
