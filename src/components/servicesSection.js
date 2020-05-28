@@ -27,7 +27,7 @@ const StyledContainer = styled.div`
 const StyledItem = styled(motion.div)`
   position: relative;
   display: flex;
-
+  min-height: 500px;
   background: white;
   color: #000333;
   box-shadow: 10px 10px 0px 0px #eee;
