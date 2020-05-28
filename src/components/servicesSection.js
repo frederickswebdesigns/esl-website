@@ -62,7 +62,6 @@ const ReadMore = styled(motion.span)`
 `
 const readMore = {
   rest: {
-    // x: -100,
     background: "rgb(0, 3, 51)",
   },
   hover: {
