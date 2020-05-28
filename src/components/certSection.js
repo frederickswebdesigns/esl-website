@@ -78,7 +78,13 @@ const CertBlock = () => (
           Wales.
         </h3>
         <p>
-          Servicing all of Brisbane, Gold Coast and Northern New South Wales.{" "}
+          Need an underground utility locating service? We can help! Our
+          Queensland underground asset location team provide comprehensive
+          underground utility locating to Coolangatta Gold Coast, Brisbane CBD,
+          Toowoomba, Caboolture, and the Sunshine Coast region (ending at
+          Noosa). Our New South Wales utility locating team offers underground
+          asset location throughout Northern Rivers suburbs from Tweed Heads to
+          Bryon Bay.
         </p>
       </div>
     </div>

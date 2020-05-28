@@ -53,12 +53,12 @@ const BackgroundSection = ({ className }) => (
 const StyledHomeBackground = styled(BackgroundSection)`
   width: 100%;
   margin-top: 83px;
-  height: 100vh;
+  height: 500px;
   background-position: bottom center;
   background-repeat: repeat-y;
   background-size: cover;
   position: relative;
-  padding: 14% 0;
+
   a {
     display: inline-block;
     margin: 1.45rem 10px;
@@ -77,11 +77,15 @@ const StyledHomeBackground = styled(BackgroundSection)`
     background: #dc2e22;
   }
   .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     color: white;
     top: 0;
     position: absolute;
     margin: 0 auto;
-    padding: 18% 0;
+
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
     width: 100%;
