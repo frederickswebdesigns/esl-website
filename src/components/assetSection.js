@@ -45,7 +45,7 @@ const StyledContainer = styled.div`
     margin: 30px 10px;
     width: 80%;
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     flex-direction: row;
     align-items: baseline;
     div {

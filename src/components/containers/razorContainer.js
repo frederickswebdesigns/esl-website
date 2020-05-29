@@ -15,15 +15,13 @@ const Razor = styled.div`
   color: #000333;
 
   .content {
-    width: 100%;
+    width: 90%;
     max-width: 1208px;
     margin: 0 auto;
   }
-
   p {
     text-align: center;
   }
-
   &:before {
     border-top: solid 25px #eee;
     position: absolute;

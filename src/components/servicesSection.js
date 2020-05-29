@@ -20,7 +20,7 @@ const StyledContainer = styled.div`
     text-decoration: none;
   }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     flex-direction: row;
   }
 `
@@ -40,7 +40,7 @@ const StyledItem = styled(motion.div)`
     width: 100%;
     padding: 1.45rem;
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     width: 500px;
 
     p {

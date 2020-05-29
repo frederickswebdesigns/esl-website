@@ -42,7 +42,7 @@ const StyledMenu = styled(motion.nav)`
       padding: 10px;
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     display: none;
   }
 `

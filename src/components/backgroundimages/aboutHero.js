@@ -29,18 +29,9 @@ const BackgroundSection = ({ className }) => (
         >
           <div className="container">
             <div className="wrapper">
-              <h1>Underground Service Locators Brisbane, Gold Coast</h1>{" "}
-              <p>
-                Need to know the location of your underground assets? We provide
-                underground cable and pipe location services throughout
-                Brisbane, Gold Coast and Northern NSW. Know what’s underground.
-                Dig with confidence.
-              </p>
+              <h1>About Expert Service Locating</h1> <br />
               <Link className="red" to="/">
                 Call Now
-              </Link>
-              <Link className="blue" to="/">
-                Services
               </Link>
             </div>
           </div>
@@ -50,10 +41,10 @@ const BackgroundSection = ({ className }) => (
   />
 )
 
-const StyledHomeBackground = styled(BackgroundSection)`
+const StyledAboutBackground = styled(BackgroundSection)`
   width: 100%;
   margin-top: 83px;
-  height: 500px;
+  height: 200px;
   background-position: bottom center;
   background-repeat: repeat-y;
   background-size: cover;
@@ -69,9 +60,6 @@ const StyledHomeBackground = styled(BackgroundSection)`
       "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 15px 25px;
     border-radius: 15px;
-  }
-  .blue {
-    background: #000333;
   }
   .red {
     background: #dc2e22;
@@ -107,8 +95,8 @@ const StyledHomeBackground = styled(BackgroundSection)`
   }
   @media only screen and (min-width: 769px) {
     margin-top: 0px;
-    height: 100vh;
+    height: 400px;
   }
 `
 
-export default StyledHomeBackground
+export default StyledAboutBackground

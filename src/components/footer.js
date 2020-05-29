@@ -35,7 +35,7 @@ const StyledWrapper = styled.div`
   a:hover {
     color: #dc2e22;
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     flex-direction: row;
   }
 `
