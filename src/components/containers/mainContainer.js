@@ -10,13 +10,17 @@ const MainContainer = styled.div`
   p {
     text-align: left !important;
   }
-  padding: 0 1.0875rem 1.45rem;
 
+  a {
+    font-weight: 900;
+    color: #dc2e22;
+  }
   .leftContent {
     h2 {
       text-align: left;
       width: 100%;
     }
+    padding-right: 0;
     width: 100%;
     text-align: left;
   }

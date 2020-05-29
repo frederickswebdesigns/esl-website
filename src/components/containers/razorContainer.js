@@ -15,7 +15,7 @@ const Razor = styled.div`
   color: #000333;
 
   .content {
-    width: 90%;
+    width: 100%;
     max-width: 1208px;
     margin: 0 auto;
   }
