@@ -15,7 +15,6 @@ const StyledWrapper = styled.div`
   margin: 0 auto;
   justify-content: space-between;
   width: 90%;
-  ${"" /* flex-direction: column; */}
   flex-wrap: wrap;
   padding: 50px 0px 0px 0px;
   span {
