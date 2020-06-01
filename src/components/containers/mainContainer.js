@@ -6,7 +6,8 @@ const MainContainer = styled.div`
   justify-content: space-between;
   flex-direction: column;
   max-width: 1208px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
+  align-items: flex-start;
   p {
     text-align: left !important;
   }

@@ -110,9 +110,9 @@ const Nav = () => {
       setScrollTop(e.target.documentElement.scrollTop)
     }
     window.addEventListener("scroll", onScroll)
+
     return () => window.removeEventListener("scroll", onScroll)
   }, [scrollTop])
-
   return (
     <NavigationLinks className={scrollTop > 122 ? "scrolled" : "notScrolled"}>
       {/* <Logo className="logo" /> */}

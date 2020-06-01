@@ -18,6 +18,9 @@ const StyledWrapper = styled.div`
   ${"" /* flex-direction: column; */}
   flex-wrap: wrap;
   padding: 50px 0px 0px 0px;
+  span {
+    font-weight: 900;
+  }
   h3 {
     border-left: 5px solid #dc2e22;
     padding-left: 5px;
@@ -69,15 +72,15 @@ const Footer = () => (
         <h3>Information</h3>
         <p>Servicing all of Brisbane, Gold Coast and Northern NSW.</p>
         <p>
-          <srong>
+          <span>
             <FontAwesomeIcon icon={faPhone} /> Phone:
-          </srong>{" "}
+          </span>{" "}
           <a href="tel:0420346477">0420 346 477</a>
         </p>
         <p>
-          <srong>
+          <span>
             <FontAwesomeIcon icon={faEnvelope} /> Email:
-          </srong>{" "}
+          </span>{" "}
           <a href="mailto:info@expertservicelocating.com.au">
             info@expertservicelocating.com.au
           </a>
@@ -93,7 +96,7 @@ const Footer = () => (
         </p>
 
         <p>
-          <strong>Head Office Postal Address (QLD & NSW): </strong>
+          <span>Head Office Postal Address (QLD & NSW): </span>
           <br />
           PO Box 1366 Coolangatta QLD 4225
         </p>

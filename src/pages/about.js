@@ -71,7 +71,6 @@ const SecondPage = () => (
             Brisbane and Northern Rivers.
           </p>
           <h3>Industry Reputation</h3>
-
           <p>
             At Expert Service Locating we are recognised for delivering the best
             possible outcomes for all underground utility locating services. The

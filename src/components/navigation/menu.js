@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import { motion } from "framer-motion"
@@ -7,7 +7,7 @@ const StyledMenu = styled(motion.nav)`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
   height: 100vh;
   width: 100%;
   text-align: right;
@@ -15,10 +15,9 @@ const StyledMenu = styled(motion.nav)`
   position: absolute;
   top: 0;
   right: 0;
-  ${"" /* transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")}; */}
-  ${"" /* transition: transform 0.3s ease-in-out; */}
 
-  a {
+  a,
+  .drop {
     font-family: "Neo Sans Bold Italic";
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -27,7 +26,6 @@ const StyledMenu = styled(motion.nav)`
     cursor: pointer;
     color: #fff;
     text-decoration: none;
-    ${"" /* transition: color 0.3s linear; */}
 
     &:hover {
       color: #dc2e22;
@@ -35,10 +33,11 @@ const StyledMenu = styled(motion.nav)`
   }
   .submenu {
     display: flex;
+
     flex-direction: column;
     width: 100%;
     a {
-      font-size: 14px;
+      font-size: 0.9rem;
       padding: 10px;
     }
   }
@@ -51,6 +50,15 @@ const activeStyle = {
 }
 
 const Menu = ({ open }) => {
+  const [subOpen, setSubOpen] = useState(false)
+  const toggleHandler = e => {
+    if (subOpen) {
+      setSubOpen(!subOpen)
+    } else {
+      e.preventDefault()
+      setSubOpen(!subOpen)
+    }
+  }
   return (
     <StyledMenu
       transition={{
@@ -68,38 +76,38 @@ const Menu = ({ open }) => {
       <Link activeStyle={activeStyle} to="/about">
         About us
       </Link>
-      <Link activeStyle={activeStyle} to="/underground-locating-services">
-        Underground Locating Services
+
+      <Link
+        onClick={toggleHandler}
+        activeStyle={activeStyle}
+        to="/underground-locating-services"
+      >
+        Underground Locating Services{" "}
       </Link>
-      {/* <div className="submenu">
+
+      <motion.div
+        className="submenu"
+        animate={{
+          opacity: subOpen ? 1 : 0,
+          display: subOpen ? "flex" : "none",
+        }}
+      >
         <Link activeStyle={activeStyle} to="/underground-locating-services">
           Underground Utility Locating Service
         </Link>
         <Link
           activeStyle={activeStyle}
-          to="/underground-locating-services/water-pipe"
+          to="/underground-locating-services/cabel-pipe"
         >
           Cable And Pipe Locating
         </Link>
-        <Link activeStyle={activeStyle} to="/underground-locating-services">
-          Power Line Locating
+        <Link activeStyle={activeStyle} to="/electromagnetic-detection">
+          Electromagnetic Detection
         </Link>
-        <Link activeStyle={activeStyle} to="/underground-locating-services">
-          Water Locating Services
+        <Link activeStyle={activeStyle} to="/underground-utility-mapping">
+          Utility Mapping
         </Link>
-        <Link activeStyle={activeStyle} to="/underground-locating-services">
-          Water Locating Services
-        </Link>
-        <Link activeStyle={activeStyle} to="/underground-locating-services">
-          Water Locating Services
-        </Link>
-        <Link activeStyle={activeStyle} to="/underground-locating-services">
-          Water Locating Services
-        </Link>
-        <Link activeStyle={activeStyle} to="/underground-locating-services">
-          Water Locating Services
-        </Link>
-      </div> */}
+      </motion.div>
 
       <Link activeStyle={activeStyle} to="/methods">
         Locating Methods

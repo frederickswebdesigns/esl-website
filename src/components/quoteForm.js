@@ -23,19 +23,26 @@ const StyledQuoteForm = styled.div`
     width: 100%;
     border-radius: 10px;
   }
+  span {
+    font-family: "Source Sans Pro";
+  }
   h2 {
     padding-top: 1.45rem;
     text-align: center;
     color: white;
   }
   input,
-  textarea {
+  textarea,
+  select {
     width: 100%;
+  }
+
+  textarea {
+    height: 250px;
   }
   @media only screen and (min-width: 769px) {
     min-width: 40%;
     max-width: 450px;
-    height: 759px;
   }
 `
 const QuoteForm = () => (
@@ -50,27 +57,39 @@ const QuoteForm = () => (
       <input type="hidden" name="form-name" value="contact" />
       <p>
         <label>
-          Name: <input type="text" name="name" />
+          Name: <input type="text" name="name" required />
         </label>
       </p>
       <p>
         <label>
-          Email: <input type="email" name="email" />
+          Email <span>(Required)</span>:{" "}
+          <input type="email" name="email" required />
         </label>
       </p>
       <p>
         <label>
-          Phone: <input type="email" name="email" />
+          Phone <span>(Required)</span>:{" "}
+          <input
+            type="tel"
+            pattern="/^\(?(?:\+?61|0)(?:(?:2\)?[ -]?(?:3[ -]?[38]|[46-9][ -]?[0-9]|5[ -]?[0-35-9])|3\)?(?:4[ -]?[0-57-9]|[57-9][ -]?[0-9]|6[ -]?[1-67])|7\)?[ -]?(?:[2-4][ -]?[0-9]|5[ -]?[2-7]|7[ -]?6)|8\)?[ -]?(?:5[ -]?[1-4]|6[ -]?[0-8]|[7-9][ -]?[0-9]))(?:[ -]?[0-9]){6}|4\)?[ -]?(?:(?:[01][ -]?[0-9]|2[ -]?[0-57-9]|3[ -]?[1-9]|4[ -]?[7-9]|5[ -]?[018])[ -]?[0-9]|3[ -]?0[ -]?[0-5])(?:[ -]?[0-9]){5})$/"
+            name="phone"
+            required
+          />
         </label>
       </p>
       <p>
         <label>
-          Suburb: <input type="email" name="email" />
+          Suburb: <input type="text" name="state" />
         </label>
       </p>
+
       <p>
         <label>
-          State: <input type="email" name="email" />
+          State:{" "}
+          <select name="state[]">
+            <option value="queensland">QLD</option>
+            <option value="new south wales">NSW</option>
+          </select>
         </label>
       </p>
       <p>
