@@ -37,21 +37,6 @@ const Razor = styled.div`
     transform-origin: top left;
     transform: ${props => props.skew || "skewY(-4deg)"};
   }
-  /* &:after {
-    border-bottom: solid 25px #eee;
-    position: absolute;
-    z-index: -11;
-    width: 100%;
-    height: 100%;
-    content: "";
-    background: inherit;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0%;
-    transform-origin: bottom left;
-    transform: skewY(4deg);
-  } */
 `
 
 export default Razor

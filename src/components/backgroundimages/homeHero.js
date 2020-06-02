@@ -36,10 +36,10 @@ const BackgroundSection = ({ className }) => (
                 Brisbane, Gold Coast and Northern NSW. Know what’s underground.
                 Dig with confidence.
               </p>
-              <Link className="red" to="/">
+              <Link className="red go" to="/">
                 Call Now
               </Link>
-              <Link className="blue" to="/">
+              <Link className="blue go" to="/">
                 Services
               </Link>
             </div>
@@ -60,7 +60,7 @@ const StyledHomeBackground = styled(BackgroundSection)`
   position: relative;
 
   a {
-    display: inline-block;
+    ${"" /* display: inline-block;
     margin: 1.45rem 10px;
     color: white;
     text-decoration: none;
@@ -68,12 +68,19 @@ const StyledHomeBackground = styled(BackgroundSection)`
       "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
       "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 15px 25px;
-    border-radius: 15px;
+    border-radius: 15px; */}
   }
   .blue {
     background: #000333;
+    display: inline-block;
+    margin: 1.45rem 10px;
   }
   .red {
+    background: #dc2e22;
+    margin: 1.45rem 10px;
+    display: inline-block;
+  }
+  .blue:hover {
     background: #dc2e22;
   }
   .container {

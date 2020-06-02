@@ -40,7 +40,7 @@ const StyledQuoteForm = styled.div`
   textarea {
     height: 250px;
   }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 1020px) {
     min-width: 40%;
     max-width: 450px;
   }
@@ -57,7 +57,8 @@ const QuoteForm = () => (
       <input type="hidden" name="form-name" value="contact" />
       <p>
         <label>
-          Name: <input type="text" name="name" required />
+          Name <span>(Required)</span>:{" "}
+          <input type="text" name="name" required />
         </label>
       </p>
       <p>
@@ -68,7 +69,7 @@ const QuoteForm = () => (
       </p>
       <p>
         <label>
-          Phone <span>(Required)</span>:{" "}
+          Phone:{" "}
           <input
             type="tel"
             pattern="/^\(?(?:\+?61|0)(?:(?:2\)?[ -]?(?:3[ -]?[38]|[46-9][ -]?[0-9]|5[ -]?[0-35-9])|3\)?(?:4[ -]?[0-57-9]|[57-9][ -]?[0-9]|6[ -]?[1-67])|7\)?[ -]?(?:[2-4][ -]?[0-9]|5[ -]?[2-7]|7[ -]?6)|8\)?[ -]?(?:5[ -]?[1-4]|6[ -]?[0-8]|[7-9][ -]?[0-9]))(?:[ -]?[0-9]){6}|4\)?[ -]?(?:(?:[01][ -]?[0-9]|2[ -]?[0-57-9]|3[ -]?[1-9]|4[ -]?[7-9]|5[ -]?[018])[ -]?[0-9]|3[ -]?0[ -]?[0-5])(?:[ -]?[0-9]){5})$/"
@@ -79,7 +80,7 @@ const QuoteForm = () => (
       </p>
       <p>
         <label>
-          Suburb: <input type="text" name="state" />
+          Suburb: <input type="text" name="suburb" />
         </label>
       </p>
 
@@ -94,7 +95,8 @@ const QuoteForm = () => (
       </p>
       <p>
         <label>
-          Message: <textarea name="message"></textarea>
+          Message <span>(Required)</span>:{" "}
+          <textarea name="message" required></textarea>
         </label>
       </p>
       <p>

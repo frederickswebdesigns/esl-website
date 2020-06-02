@@ -25,7 +25,7 @@ const MainContainer = styled.div`
     width: 100%;
     text-align: left;
   }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 1020px) {
     flex-direction: row;
     .leftContent {
       ${"" /* width: 50%; */}

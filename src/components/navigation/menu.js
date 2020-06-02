@@ -92,7 +92,10 @@ const Menu = ({ open }) => {
           display: subOpen ? "flex" : "none",
         }}
       >
-        <Link activeStyle={activeStyle} to="/underground-locating-services">
+        <Link
+          activeStyle={activeStyle}
+          to="/underground-utility-locating-service"
+        >
           Underground Utility Locating Service
         </Link>
         <Link

@@ -59,7 +59,7 @@ const NavigationLinks = styled.nav`
   a {
     /* color: #fff; */
     font-family: "Neo Sans Bold Italic";
-    font-size: 14px;
+    font-size: 0.8rem;
 
     text-transform: uppercase;
     text-decoration: none;
@@ -133,21 +133,35 @@ const Nav = () => {
           </li>
 
           <li className="submenu">
-            <Link activeStyle={activeStyle} to="/underground-service-locating">
+            <Link
+              activeStyle={activeStyle}
+              to="/underground-utility-locating-service"
+            >
               Underground Services Locating
             </Link>
             <ul>
               <li>
-                <Link to="/">Underground Utility Locating Service</Link>
+                <Link
+                  activeStyle={activeStyle}
+                  to="/underground-utility-locating-service"
+                >
+                  Underground Utility Locating Service
+                </Link>
               </li>
               <li>
-                <Link to="/">Cabel And Pipe Locating</Link>
+                <Link activeStyle={activeStyle} to="/">
+                  Cabel And Pipe Locating
+                </Link>
               </li>
               <li>
-                <Link to="/">Power Utility Locating</Link>
+                <Link activeStyle={activeStyle} to="/">
+                  Power Utility Locating
+                </Link>
               </li>
               <li>
-                <Link to="/">service</Link>
+                <Link activeStyle={activeStyle} to="/">
+                  service
+                </Link>
               </li>
             </ul>
           </li>

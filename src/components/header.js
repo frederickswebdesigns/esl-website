@@ -14,6 +14,7 @@ const HeaderContainer = styled.header`
   top: 0;
   z-index: 999;
   box-shadow: 0px 4px 9px -7px rgba(0, 3, 51, 1);
+
   @media only screen and (min-width: 769px) {
     position: static;
     box-shadow: none;
@@ -22,6 +23,7 @@ const HeaderContainer = styled.header`
 const HeaderWrapper = styled.div`
   max-width: 1200px;
   /* min-width: 90%; */
+
   padding: 0 1.0875rem;
   margin: 0 auto;
   .callnow-dbyd {
@@ -38,6 +40,7 @@ const HeaderSection = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 122px;
 `
 
 const Header = ({ siteTitle }) => {

@@ -61,17 +61,16 @@ const CertBlock = () => (
           budget by successfully preventing Injury, Underground Cable and Pipe
           Damage and High Repair Costs.
         </p>
-        <h3>Your Trusted QLD Underground Service Locating Company</h3>
+        <h3>Your Trusted QLD Underground Pipe Locating Company</h3>
         <p>
           Our team of professionals are Dial Before You Dig certified and
-          Telstra accredited underground service locators. With years of
-          experience accurately locating in the most complex conditions, we can
-          handle any job, big or small. We have worked for various industries
-          such as Aerospace, Military, Government Departments, Hospitals and
-          globally recognized companies. Our extensive training and experience
-          allow us to use the most advanced techniques and technologies to
-          provide you with the best and safest underground service location
-          possible!{" "}
+          Telstra accredited underground pipe locators. With years of experience
+          accurately locating in the most complex conditions, we can handle any
+          job, big or small. We have worked for various industries such as
+          Aerospace, Military, Government Departments, Hospitals and globally
+          recognized companies. Our extensive training and experience allow us
+          to use the most advanced techniques and technologies to provide you
+          with the best and safest underground cable location services!{" "}
         </p>
         <h3>
           South East Queensland, Brisbane, Gold Coast and Northern New South

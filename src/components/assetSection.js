@@ -30,11 +30,8 @@ const StyledContainer = styled.div`
     color: #dc2e22;
   }
   .go {
-    display: inline-block;
     color: white;
-    background: #dc2e22;
-    padding: 20px;
-    border-radius: 10px;
+    margin: 0px 0px 0px auto;
   }
   .go:hover {
     color: white;
@@ -57,7 +54,7 @@ const AssetBlock = () => (
   <StyledWrapper>
     <StyledContainer>
       <div>
-        <h3>Underground Services</h3>
+        <h3>Underground Pipe Locations</h3>
         <ul>
           <li>
             <Link to="/">

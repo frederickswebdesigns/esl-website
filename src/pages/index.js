@@ -12,6 +12,7 @@ import ServicesBlock from "../components/servicesSection"
 import ImageBlockTwo from "../components/gatsbyimages/imageBlock2"
 import AssetBlock from "../components/assetSection"
 import CertBlock from "../components/certSection"
+import { Link } from "gatsby"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -43,6 +44,9 @@ const IndexPage = () => (
           locating and marking your underground cables and pipes, you can trust
           you are in good hands. Dig With Confidence. Call us today!
         </p>
+        <Link to="/about" className="go">
+          About us &#10132;
+        </Link>
       </div>
     </Razor>
     {/* <StyledBlockBackground /> */}
