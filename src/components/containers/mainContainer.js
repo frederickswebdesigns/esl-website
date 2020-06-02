@@ -22,6 +22,7 @@ const MainContainer = styled.div`
       width: 100%;
     }
     padding-right: 0;
+
     width: 100%;
     text-align: left;
   }
@@ -29,7 +30,7 @@ const MainContainer = styled.div`
     flex-direction: row;
     .leftContent {
       ${"" /* width: 50%; */}
-      width: 604px;
+      min-width: 604px;
       padding-right: 1rem;
     }
   }

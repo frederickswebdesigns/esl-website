@@ -5,98 +5,92 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MainContainer from "../components/containers/mainContainer"
 
-import StyledAboutBackground from "../components/backgroundimages/aboutHero"
 import Razor from "../components/containers/razorContainer"
 import QuoteForm from "../components/quoteForm"
 import DbydCert from "../components/gatsbyimages/dbydCert"
 import TelstraCert from "../components/gatsbyimages/telstraCert"
+import StyledUULSBackground from "../components/backgroundimages/uulsHero"
+import ChildBlock from "../components/childServices"
+import PageContainer from "../components/containers/pageContainer"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <StyledAboutBackground />
+    <StyledUULSBackground />
     <Razor>
       <div className="content"></div>
 
-      <MainContainer>
+      <PageContainer>
         <div className="leftContent">
           <h2 style={{ color: "#dc2e22" }}>
-            Professional Underground Services
+            What is underground utility locating?
           </h2>
-          <p
-            style={{
-              fontWeight: "900",
+          <p>
+            Underground utility locating is a process in which both public and
+            private underground utility mains are identified and marked out
+            prior to any digging.
+          </p>
+          <p>
+            Since various sorts of underground cables and pipes are manufactured
+            using a wide variety of materials, high-tech and advanced methods
+            are required for the detection and location of these underground
+            utilities.
+          </p>
+          <p>
+            Because most utility maps lack the necessary precision needed to
+            ensure precise clearance, having your utilities located by a
+            professional cable and pipe locator is crucial. Due to outdated and
+            inaccurate maps, this is especially true for older cities.
+          </p>
+          <p>
+            If you are looking for a solution to your underground utility
+            location problems, then wait no further and act now by contacting us
+            at <a href="tel:0420346477">0420-346-477.</a>
+          </p>
+          <h3>We Offer Underground Utility Locating Solutions</h3>
+          <p>
+            Expert Service Locating is Australia’s leading specialist in all
+            divisions of underground utility location and service locating. We
+            offer the most comprehensive and accurate underground asset location
+            possible, making us a household name in the industry and one of the
+            top cable and pipe locating companies in the country.
+          </p>
+          <p>
+            Knowing about all the underground utilities and their location on
+            your property is essential and should always be the first step you
+            take before doing any heavy tasks such as drilling, grading, digging
+            or building design. This knowledge will provide you with the
+            confidence needed to carry out your tasks and help minimize the risk
+            of damage, injury and unnecessary repair costs. We provide the
+            knowledge of what is underground, so can you dig with confidence!
+          </p>
+          <h3>Our Range of Services</h3>
+          <ChildBlock />
+          <p>
+            We are Telstra accredited, DBYD certified, fully insured, and have
+            extensive knowledge of the country’s underground infrastructure. Our
+            highly experienced staff carry out each underground location service
+            with the highest standard of professionalism and use only the best
+            methods and state-of-the-art underground location equipment
+            available. Reputation speaks for itself as we have been in the
+            underground utility locating industry for over 17 years. No matter
+            how big or small, we can provide you with the underground cable and
+            pipe location services necessary to make your next project a
+            success.{" "}
+          </p>
+          <h3>Contact Us Now!</h3>
+          <p>
+            So dial in now to acquire our services! You can also ask us for a
+            free quote on the following number{" "}
+            <a href="tel:0420346477">0420-346-477</a>. Further queries can be
+            directed to our email address which is{" "}
+            <a href="mailto:info@expertservicelocating.com.au">
+              info@expertservicelocating.com.au
+            </a>
+          </p>
 
-              fontFamily: "Neo Sans Bold Italic",
-            }}
-          >
-            Expert Service Locating is a commercial and residential underground
-            utility locating company. Our expert underground asset locators know
-            the intricacies of every process and provide professional services,
-            delivering results combined with quality work and value.
-          </p>
-          <p>
-            We strive to be the best in the utility location industry. That is
-            why we use state-of-the-art technologies that enable us to use
-            different frequencies to find your{" "}
-            <Link to="/">Cable and Pipe location</Link>,{" "}
-            <Link to="/">Power Line location</Link>,{" "}
-            <Link to="/">Gas Line location</Link>, as well as <Link>Sewer</Link>{" "}
-            and <Link>Water Line location</Link>.
-          </p>
-          <h3>17 Years Finding Underground Utilities </h3>
-          <p>
-            With over 17 years of experience in the underground service locating
-            industry, we have proudly established a long list of returning
-            satisfied customers. And with having worked globally for various
-            Aerospace, Military, Government Departments, Hospitals, and Private
-            Residences, we stand firmly as one of Australia’s leading
-            underground service location companies.
-          </p>
-          <p>
-            {" "}
-            Our clientele stretches from Northern NSW to Brisbane QLD and
-            beyond, servicing some of the biggest companies of Australia. With
-            our accurate asset location in combination with our affordable cable
-            and pipe location services, we are the top choice for some of the
-            biggest construction contractors throughout Australia.
-          </p>
-          <h3>Underground Service Locators Brisbane and Northern Rivers</h3>
-          <p>
-            Throughout nearly two decades in the cable and pipe location
-            industry, we have acquired unmatched underground infrastructure
-            knowledge and developed quality underground utility locating skills
-            and expertise. This industry experience has enabled us to use some
-            of the most advanced equipment and techniques that help us provide a
-            wide variety of utility location and underground services across
-            Brisbane and Northern Rivers.
-          </p>
-          <h3>Industry Reputation</h3>
-          <p>
-            At Expert Service Locating we are recognised for delivering the best
-            possible outcomes for all underground utility locating services. The
-            size of your project does not matter. We can tackle all situations
-            regardless of the complexity. Our experienced team of utility
-            locators will take care of all your underground assets location
-            projects.
-          </p>
-          <DbydCert />
-          <TelstraCert />
-          <p>
-            Our technicians are equipped with both traditional and modern
-            methods of underground utility locating techniques and technologies.
-            Our team of underground cable and pipes locators are fully insured,
-            certified and nationally recognised by Telstra and DBYD. So if you
-            want to get your job done by an experienced underground service
-            locating professional, contact us today!
-          </p>
-          <p>
-            Don’t waste any time, acquire our services now! Give us a call at{" "}
-            <a href="tel:0420346477">0420-346-477</a> to find out more.
-          </p>
-          <Link to="/">Go back to the homepage</Link>
+          <QuoteForm />
         </div>
-        <QuoteForm />
-      </MainContainer>
+      </PageContainer>
     </Razor>
   </Layout>
 )

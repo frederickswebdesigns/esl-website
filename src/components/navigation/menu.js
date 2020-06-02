@@ -41,7 +41,7 @@ const StyledMenu = styled(motion.nav)`
       padding: 10px;
     }
   }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 910px) {
     display: none;
   }
 `
@@ -82,7 +82,7 @@ const Menu = ({ open }) => {
         activeStyle={activeStyle}
         to="/underground-locating-services"
       >
-        Underground Locating Services{" "}
+        Locating Services &#10132;
       </Link>
 
       <motion.div
@@ -96,7 +96,7 @@ const Menu = ({ open }) => {
           activeStyle={activeStyle}
           to="/underground-utility-locating-service"
         >
-          Underground Utility Locating Service
+          Underground Utility Locating Services
         </Link>
         <Link
           activeStyle={activeStyle}

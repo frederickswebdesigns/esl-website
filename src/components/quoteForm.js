@@ -7,7 +7,7 @@ const StyledQuoteForm = styled.div`
   background: #000333;
   border-radius: 10px;
   border-left: 15px solid #dc2e22;
-  margin-bottom: 20px;
+  margin: 20px auto;
   form {
     padding: 0 1.0875rem 1.45rem;
     display: block;
@@ -42,7 +42,8 @@ const StyledQuoteForm = styled.div`
   }
   @media only screen and (min-width: 1020px) {
     min-width: 40%;
-    max-width: 450px;
+
+    max-width: 90%;
   }
 `
 const QuoteForm = () => (

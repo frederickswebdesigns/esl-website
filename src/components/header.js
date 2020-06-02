@@ -15,7 +15,7 @@ const HeaderContainer = styled.header`
   z-index: 999;
   box-shadow: 0px 4px 9px -7px rgba(0, 3, 51, 1);
 
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 910px) {
     position: static;
     box-shadow: none;
   }
@@ -29,7 +29,7 @@ const HeaderWrapper = styled.div`
   .callnow-dbyd {
     display: none;
   }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 910px) {
     .callnow-dbyd {
       display: block;
       margin: 10px;

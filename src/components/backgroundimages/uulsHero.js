@@ -8,7 +8,9 @@ const BackgroundSection = ({ className }) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "underground-pipe-locating.png" }) {
+        desktop: file(
+          relativePath: { eq: "underground-utility-locating-services.JPG" }
+        ) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
@@ -29,18 +31,9 @@ const BackgroundSection = ({ className }) => (
         >
           <div className="container">
             <div className="wrapper">
-              <h1>Underground Service Locators Brisbane, Gold Coast</h1>{" "}
-              <p>
-                Need to know the location of your underground assets? We provide
-                underground cable and pipe location services throughout
-                Brisbane, Gold Coast and Northern NSW. Know what’s underground.
-                Dig with confidence.
-              </p>
+              <h1>Underground Utility Locating Services</h1> <br />
               <Link className="red go" to="/">
-                Call Now
-              </Link>
-              <Link className="blue go" to="/">
-                Services
+                Call Now &#10132;
               </Link>
             </div>
           </div>
@@ -50,17 +43,17 @@ const BackgroundSection = ({ className }) => (
   />
 )
 
-const StyledHomeBackground = styled(BackgroundSection)`
+const StyledUULSBackground = styled(BackgroundSection)`
   width: 100%;
   margin-top: 83px;
-  height: 500px;
-  background-position: bottom center;
+  height: 400px;
+  background-position: left center;
   background-repeat: repeat-y;
   background-size: cover;
   position: relative;
 
-  a {
-    ${"" /* display: inline-block;
+  ${"" /* a {
+    display: inline-block;
     margin: 1.45rem 10px;
     color: white;
     text-decoration: none;
@@ -68,19 +61,9 @@ const StyledHomeBackground = styled(BackgroundSection)`
       "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
       "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 15px 25px;
-    border-radius: 15px; */}
-  }
-  .blue {
-    background: #000333;
-    display: inline-block;
-    margin: 1.45rem 10px;
-  }
+    border-radius: 15px;
+  } */}
   .red {
-    background: #dc2e22;
-    margin: 1.45rem 10px;
-    display: inline-block;
-  }
-  .blue:hover {
     background: #dc2e22;
   }
   .container {
@@ -114,8 +97,8 @@ const StyledHomeBackground = styled(BackgroundSection)`
   }
   @media only screen and (min-width: 910px) {
     margin-top: 0px;
-    height: 70vh;
+    height: 400px;
   }
 `
 
-export default StyledHomeBackground
+export default StyledUULSBackground

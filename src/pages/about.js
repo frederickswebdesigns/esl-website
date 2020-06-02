@@ -95,7 +95,7 @@ const SecondPage = () => (
           </p>
           <Link to="/">Go back to the homepage</Link>
         </div>
-        <QuoteForm />
+        <QuoteForm formWidth="400px" />
       </MainContainer>
     </Razor>
   </Layout>

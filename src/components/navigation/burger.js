@@ -43,7 +43,7 @@ const StyledBurger = styled(motion.button)`
       ${"" /* transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")}; */}
     }
   }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 910px) {
     display: none;
   }
 `

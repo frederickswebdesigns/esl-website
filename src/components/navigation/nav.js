@@ -94,7 +94,7 @@ const NavigationLinks = styled.nav`
   }
 
   /* show on desktop */
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 910px) {
     display: block;
   }
 `

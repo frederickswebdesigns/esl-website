@@ -23,7 +23,7 @@ const StyledCertContainer = styled.div`
       }
     }
   }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 910px) {
     .certimage {
       display: block;
     }

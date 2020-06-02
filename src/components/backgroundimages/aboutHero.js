@@ -32,8 +32,8 @@ const BackgroundSection = ({ className }) => (
           <div className="container">
             <div className="wrapper">
               <h1>About Expert Service Locating</h1> <br />
-              <Link className="red" to="/">
-                Call Now
+              <Link className="red go" to="/">
+                Call Now &#10132;
               </Link>
             </div>
           </div>
@@ -52,7 +52,7 @@ const StyledAboutBackground = styled(BackgroundSection)`
   background-size: cover;
   position: relative;
 
-  a {
+  ${"" /* a {
     display: inline-block;
     margin: 1.45rem 10px;
     color: white;
@@ -62,7 +62,7 @@ const StyledAboutBackground = styled(BackgroundSection)`
       "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 15px 25px;
     border-radius: 15px;
-  }
+  } */}
   .red {
     background: #dc2e22;
   }
@@ -95,7 +95,7 @@ const StyledAboutBackground = styled(BackgroundSection)`
       }
     }
   }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 910px) {
     margin-top: 0px;
     height: 400px;
   }
