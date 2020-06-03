@@ -4,13 +4,13 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MainContainer from "../components/containers/mainContainer"
-
 import StyledAboutBackground from "../components/backgroundimages/aboutHero"
 import Razor from "../components/containers/razorContainer"
 import QuoteForm from "../components/quoteForm"
 import DbydCert from "../components/gatsbyimages/dbydCert"
 import TelstraCert from "../components/gatsbyimages/telstraCert"
-const SecondPage = () => (
+import TechnicianImage from "../components/gatsbyimages/technicianImage"
+const AboutPage = () => (
   <Layout>
     <SEO title="Page two" />
     <StyledAboutBackground />
@@ -25,14 +25,16 @@ const SecondPage = () => (
           <p
             style={{
               fontWeight: "900",
-
               fontFamily: "Neo Sans Bold Italic",
             }}
           >
             Expert Service Locating is a commercial and residential underground
             utility locating company. Our expert underground asset locators know
-            the intricacies of every process and provide professional services,
-            delivering results combined with quality work and value.
+            the intricacies of every process and provide{" "}
+            <Link to="/underground-utility-locating-service">
+              professional utility locating services
+            </Link>
+            , delivering results combined with quality work and value.
           </p>
           <p>
             We strive to be the best in the utility location industry. That is
@@ -43,7 +45,9 @@ const SecondPage = () => (
             <Link to="/">Gas Line location</Link>, as well as <Link>Sewer</Link>{" "}
             and <Link>Water Line location</Link>.
           </p>
+          <TechnicianImage />
           <h3>17 Years Finding Underground Utilities </h3>
+
           <p>
             With over 17 years of experience in the underground service locating
             industry, we have proudly established a long list of returning
@@ -52,6 +56,7 @@ const SecondPage = () => (
             Residences, we stand firmly as one of Australia’s leading
             underground service location companies.
           </p>
+
           <p>
             {" "}
             Our clientele stretches from Northern NSW to Brisbane QLD and
@@ -101,4 +106,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default AboutPage

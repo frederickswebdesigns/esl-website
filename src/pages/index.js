@@ -26,7 +26,6 @@ const IndexPage = () => (
           style={{
             color: "",
             fontWeight: "900",
-
             textAlign: "center",
             fontFamily: "Neo Sans Bold Italic",
           }}

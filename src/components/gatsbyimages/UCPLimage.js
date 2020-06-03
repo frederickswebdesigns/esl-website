@@ -28,7 +28,12 @@ const UCPLimg = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="underground services located in brisbane"
+    />
+  )
 }
 
 export default UCPLimg

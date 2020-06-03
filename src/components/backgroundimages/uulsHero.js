@@ -32,9 +32,12 @@ const BackgroundSection = ({ className }) => (
           <div className="container">
             <div className="wrapper">
               <h1>Underground Utility Locating Services</h1> <br />
-              <Link className="red go" to="/">
-                Call Now &#10132;
+              <Link className="blue go " to="/">
+                Services
               </Link>
+              <a className="red go" href="tel:0420346477">
+                Call Now
+              </a>
             </div>
           </div>
         </BackgroundImage>
@@ -63,7 +66,17 @@ const StyledUULSBackground = styled(BackgroundSection)`
     padding: 15px 25px;
     border-radius: 15px;
   } */}
+  .blue {
+    background: #000333;
+    display: inline-block;
+    margin: 1.45rem 10px;
+  }
   .red {
+    background: #dc2e22;
+    margin: 1.45rem 10px;
+    display: inline-block;
+  }
+  .blue:hover {
     background: #dc2e22;
   }
   .container {

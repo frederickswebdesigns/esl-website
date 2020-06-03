@@ -49,12 +49,11 @@ const ReadMore = styled(motion.span)`
   font-size: 1.2rem;
   color: white;
   text-align: center;
-
   padding: 20px;
 `
 const readMore = {
   rest: {
-    background: "rgba(0, 3, 51, 0)",
+    background: "rgba(0, 3, 51, 0.5)",
   },
   hover: {
     background: "rgba(220, 46, 34, 0.5)",
@@ -85,7 +84,7 @@ const ChildBlock = () => (
         <ReadMore variants={readMore}>Cable and Pipe locating</ReadMore>
       </StyledItem>
     </Link>
-    <Link to="/">
+    <Link to="/electromagnetic-detection">
       <StyledItem
         initial="rest"
         whileHover="hover"

@@ -32,9 +32,12 @@ const BackgroundSection = ({ className }) => (
           <div className="container">
             <div className="wrapper">
               <h1>About Expert Service Locating</h1> <br />
-              <Link className="red go" to="/">
-                Call Now &#10132;
+              <Link className="blue go " to="/">
+                Services
               </Link>
+              <a className="red go" href="tel:0420346477">
+                Call Now
+              </a>
             </div>
           </div>
         </BackgroundImage>
@@ -52,18 +55,17 @@ const StyledAboutBackground = styled(BackgroundSection)`
   background-size: cover;
   position: relative;
 
-  ${"" /* a {
+  .blue {
+    background: #000333;
     display: inline-block;
     margin: 1.45rem 10px;
-    color: white;
-    text-decoration: none;
-    font-family: "Neo Sans Bold Italic", -apple-system, BlinkMacSystemFont,
-      "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-      "Segoe UI Emoji", "Segoe UI Symbol";
-    padding: 15px 25px;
-    border-radius: 15px;
-  } */}
+  }
   .red {
+    background: #dc2e22;
+    margin: 1.45rem 10px;
+    display: inline-block;
+  }
+  .blue:hover {
     background: #dc2e22;
   }
   .container {

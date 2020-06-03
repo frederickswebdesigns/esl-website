@@ -28,6 +28,10 @@ const MainContainer = styled.div`
   }
   @media only screen and (min-width: 1020px) {
     flex-direction: row;
+    .about-image {
+      float: left;
+      margin: 1rem;
+    }
     .leftContent {
       ${"" /* width: 50%; */}
       min-width: 604px;

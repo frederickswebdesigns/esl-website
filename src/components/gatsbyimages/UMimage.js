@@ -26,7 +26,12 @@ const UMimg = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="mapped underground assets"
+    />
+  )
 }
 
 export default UMimg

@@ -28,7 +28,12 @@ const UULSimg = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="locating with a tracer wire"
+    />
+  )
 }
 
 export default UULSimg

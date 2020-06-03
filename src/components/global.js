@@ -29,8 +29,8 @@ ${
   }
 
   .go {
-    display: block;
-    max-width: 250px;
+    
+    
     text-align: center;
     color: white;
     background: #dc2e22;

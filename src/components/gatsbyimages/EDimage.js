@@ -28,7 +28,12 @@ const EDimg = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="electromagnetic detection device"
+    />
+  )
 }
 
 export default EDimg

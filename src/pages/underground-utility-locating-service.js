@@ -7,12 +7,11 @@ import MainContainer from "../components/containers/mainContainer"
 
 import Razor from "../components/containers/razorContainer"
 import QuoteForm from "../components/quoteForm"
-import DbydCert from "../components/gatsbyimages/dbydCert"
-import TelstraCert from "../components/gatsbyimages/telstraCert"
+
 import StyledUULSBackground from "../components/backgroundimages/uulsHero"
 import ChildBlock from "../components/childServices"
 import PageContainer from "../components/containers/pageContainer"
-const SecondPage = () => (
+const UULSPage = () => (
   <Layout>
     <SEO title="Page two" />
     <StyledUULSBackground />
@@ -95,4 +94,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default UULSPage

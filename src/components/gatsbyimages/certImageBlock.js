@@ -32,8 +32,8 @@ const ImageBlockCert = ({ style }) => {
     <div className="certimage">
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
-        style={{ width: "100%", height: 1200, style }}
-        alt="Underground services marked on street"
+        style={{ width: "100%", height: 1200 }}
+        alt="Underground services marked on footpath"
       />
     </div>
   )
