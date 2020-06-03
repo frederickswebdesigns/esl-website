@@ -31,7 +31,7 @@ const AboutPage = () => (
             Expert Service Locating is a commercial and residential underground
             utility locating company. Our expert underground asset locators know
             the intricacies of every process and provide{" "}
-            <Link to="/underground-utility-locating-service">
+            <Link to="/underground-utility-locating-services">
               professional utility locating services
             </Link>
             , delivering results combined with quality work and value.

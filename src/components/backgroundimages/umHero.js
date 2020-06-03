@@ -8,9 +8,7 @@ const BackgroundSection = ({ className }) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(
-          relativePath: { eq: "underground-locator-transmitter.JPG" }
-        ) {
+        desktop: file(relativePath: { eq: "utility-mapping.jpg" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
@@ -31,7 +29,7 @@ const BackgroundSection = ({ className }) => (
         >
           <div className="container">
             <div className="wrapper">
-              <h1>About Expert Service Locating</h1> <br />
+              <h1>Utility Mapping</h1> <br />
               <Link
                 className="blue go "
                 to="/underground-utility-locating-services"
@@ -49,15 +47,26 @@ const BackgroundSection = ({ className }) => (
   />
 )
 
-const StyledAboutBackground = styled(BackgroundSection)`
+const StyledUmBackground = styled(BackgroundSection)`
   width: 100%;
   margin-top: 83px;
   height: 400px;
-  background-position: bottom center;
+  background-position: left center;
   background-repeat: repeat-y;
   background-size: cover;
   position: relative;
 
+  ${"" /* a {
+    display: inline-block;
+    margin: 1.45rem 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "Neo Sans Bold Italic", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 15px 25px;
+    border-radius: 15px;
+  } */}
   .blue {
     background: #000333;
     display: inline-block;
@@ -106,4 +115,4 @@ const StyledAboutBackground = styled(BackgroundSection)`
   }
 `
 
-export default StyledAboutBackground
+export default StyledUmBackground

@@ -1,12 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
-${
-  "" /* @font-face {
-  font-family: "Neo Sans Bold Italic";
-  src: url("NeoSans-BoldItalic.woff");
-} */
-}
+
   html, body {
     margin: 0;
     padding: 0;
@@ -29,8 +24,8 @@ ${
   }
 
   .go {
-    
-    
+    display: block;
+    max-width: 250px;
     text-align: center;
     color: white;
     background: #dc2e22;

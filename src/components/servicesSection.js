@@ -81,7 +81,7 @@ const slideUp = {
 }
 const ServicesBlock = () => (
   <StyledContainer>
-    <Link to="/underground-utility-locating-service">
+    <Link to="/underground-utility-locating-services">
       <StyledItem
         initial="rest"
         whileHover="hover"

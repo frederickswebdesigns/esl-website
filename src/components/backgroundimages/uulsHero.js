@@ -32,8 +32,8 @@ const BackgroundSection = ({ className }) => (
           <div className="container">
             <div className="wrapper">
               <h1>Underground Utility Locating Services</h1> <br />
-              <Link className="blue go " to="/">
-                Services
+              <Link className="blue go " to="/about">
+                About Us
               </Link>
               <a className="red go" href="tel:0420346477">
                 Call Now

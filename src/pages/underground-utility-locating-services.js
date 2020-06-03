@@ -21,7 +21,7 @@ const UULSPage = () => (
       <PageContainer>
         <div className="leftContent">
           <h2 style={{ color: "#dc2e22" }}>
-            What is underground utility locating?
+            What is Underground Utility Locating?
           </h2>
           <p>
             Underground utility locating is a process in which both public and

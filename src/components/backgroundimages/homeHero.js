@@ -39,7 +39,10 @@ const BackgroundSection = ({ className }) => (
               <Link className="red go" to="/">
                 Call Now
               </Link>
-              <Link className="blue go" to="/">
+              <Link
+                className="blue go"
+                to="/underground-utility-locating-services"
+              >
                 Services
               </Link>
             </div>

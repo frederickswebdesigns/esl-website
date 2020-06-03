@@ -9,6 +9,7 @@ import Razor from "../components/containers/razorContainer"
 import QuoteForm from "../components/quoteForm"
 
 import StyledEdBackground from "../components/backgroundimages/edHero"
+import MarkingImage from "../components/gatsbyimages/markingImg"
 
 const ElectroDectPage = () => (
   <Layout>
@@ -42,6 +43,7 @@ const ElectroDectPage = () => (
             and our operator can then accurately locate and mark out the
             location of your underground cables and pipes.
           </p>
+          <MarkingImage />
           <h3>State Of The Art Equipment</h3>
           <p>
             Electromagnetic Detection is the most effective and reliable utility

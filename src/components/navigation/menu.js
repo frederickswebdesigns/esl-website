@@ -94,7 +94,7 @@ const Menu = ({ open }) => {
       >
         <Link
           activeStyle={activeStyle}
-          to="/underground-utility-locating-service"
+          to="/underground-utility-locating-services"
         >
           Underground Utility Locating Services
         </Link>

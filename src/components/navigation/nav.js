@@ -135,15 +135,15 @@ const Nav = () => {
           <li className="submenu">
             <Link
               activeStyle={activeStyle}
-              to="/underground-utility-locating-service"
+              to="/underground-utility-locating-services"
             >
-              Underground Services Locating
+              Underground Utility Locating Services
             </Link>
             <ul>
               <li>
                 <Link
                   activeStyle={activeStyle}
-                  to="/underground-utility-locating-service"
+                  to="/underground-utility-locating-services"
                 >
                   Underground Utility Locating Service
                 </Link>
@@ -154,13 +154,13 @@ const Nav = () => {
                 </Link>
               </li>
               <li>
-                <Link activeStyle={activeStyle} to="/">
-                  Power Utility Locating
+                <Link activeStyle={activeStyle} to="/electromagnetic-detection">
+                  Electromagnetic Detection
                 </Link>
               </li>
               <li>
                 <Link activeStyle={activeStyle} to="/">
-                  service
+                  Utility Mapping
                 </Link>
               </li>
             </ul>
