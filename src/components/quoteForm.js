@@ -15,6 +15,11 @@ const StyledQuoteForm = styled.div`
     width: 90%;
     font-family: "Neo Sans Bold Italic";
   }
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border: 5px solid #dc2e22;
+  }
   button {
     color: white;
     background: #dc2e22;

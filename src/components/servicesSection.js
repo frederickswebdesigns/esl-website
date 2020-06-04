@@ -104,7 +104,7 @@ const ServicesBlock = () => (
         </div>
       </StyledItem>
     </Link>
-    <Link to="/">
+    <Link to="/cable-and-pipe-locating">
       <StyledItem
         initial="rest"
         whileHover="hover"
@@ -127,7 +127,7 @@ const ServicesBlock = () => (
         </div>
       </StyledItem>
     </Link>
-    <Link to="/">
+    <Link to="/electromagnetic-detection">
       <StyledItem
         initial="rest"
         whileHover="hover"
@@ -151,7 +151,7 @@ const ServicesBlock = () => (
         </div>
       </StyledItem>
     </Link>
-    <Link to="/">
+    <Link to="/utility-mapping">
       <StyledItem
         initial="rest"
         whileHover="hover"

@@ -149,7 +149,7 @@ const Nav = () => {
                 </Link>
               </li>
               <li>
-                <Link activeStyle={activeStyle} to="/">
+                <Link activeStyle={activeStyle} to="/cable-and-pipe-locating">
                   Cabel And Pipe Locating
                 </Link>
               </li>
@@ -159,7 +159,7 @@ const Nav = () => {
                 </Link>
               </li>
               <li>
-                <Link activeStyle={activeStyle} to="/">
+                <Link activeStyle={activeStyle} to="/utility-mapping">
                   Utility Mapping
                 </Link>
               </li>

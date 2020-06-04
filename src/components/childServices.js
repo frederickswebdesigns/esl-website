@@ -96,7 +96,7 @@ const ChildBlock = () => (
         <ReadMore variants={readMore}>Electromagnetic Detection</ReadMore>
       </StyledItem>
     </Link>
-    <Link to="/">
+    <Link to="/utility-mapping">
       <StyledItem
         initial="rest"
         whileHover="hover"
