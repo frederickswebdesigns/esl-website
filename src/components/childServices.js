@@ -72,7 +72,7 @@ const slideUp = {
 }
 const ChildBlock = () => (
   <StyledContainer>
-    <Link to="/">
+    <Link to="/cable-and-pipe-locating">
       <StyledItem
         initial="rest"
         whileHover="hover"

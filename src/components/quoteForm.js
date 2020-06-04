@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-const StyledQuoteForm = styled.div`
+const StyledQuoteForm = styled.aside`
   width: 100%;
   color: white;
   background: #000333;
@@ -43,12 +43,11 @@ const StyledQuoteForm = styled.div`
   }
 
   textarea {
-    height: 250px;
+    height: 150px;
   }
   @media only screen and (min-width: 1020px) {
-    min-width: 40%;
-
-    max-width: 90%;
+    width: 40%;
+    margin: 0px;
   }
 `
 const QuoteForm = () => (

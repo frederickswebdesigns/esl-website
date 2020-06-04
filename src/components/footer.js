@@ -107,16 +107,18 @@ const Footer = () => (
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/">Locating Services</Link>
+            <Link to="/underground-utility-locating-services">
+              Locating Services
+            </Link>
           </li>
           <li>
-            <Link to="/">Locating Methods</Link>
+            <Link to="/methods">Locating Methods</Link>
           </li>
           <li>
-            <Link to="/">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </StyledNav>
@@ -124,16 +126,16 @@ const Footer = () => (
         <h3>Services</h3>
         <ul>
           <li>
-            <Link to="/">Telecommunications & Power</Link>
+            <Link to="/power-line-locating">Telecommunications & Power</Link>
           </li>
           <li>
-            <Link to="/">Water</Link>
+            <Link to="/water-pipe-locating">Water</Link>
           </li>
           <li>
-            <Link to="/">Gas</Link>
+            <Link to="/gase-line-locating">Gas</Link>
           </li>
           <li>
-            <Link to="/">Sewer</Link>
+            <Link to="/sewer-line-locating">Sewer</Link>
           </li>
         </ul>
       </StyledNav>

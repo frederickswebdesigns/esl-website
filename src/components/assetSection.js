@@ -57,18 +57,24 @@ const AssetBlock = () => (
         <h3>Underground Pipe Locations</h3>
         <ul>
           <li>
-            <Link to="/">
+            <Link to="/power-line-locating">
               Underground Telecommunications & Power Locating &#10132;
             </Link>
           </li>
           <li>
-            <Link to="/">Underground Water Pipe Locating &#10132;</Link>
+            <Link to="/water-pipe-locating">
+              Underground Water Pipe Locating &#10132;
+            </Link>
           </li>
           <li>
-            <Link to="/">Underground Gas line Locating &#10132;</Link>
+            <Link to="/gas-line-locating">
+              Underground Gas line Locating &#10132;
+            </Link>
           </li>
           <li>
-            <Link to="/">Underground Sewer Locating &#10132;</Link>
+            <Link to="/sewer-line-locating">
+              Underground Sewer Locating &#10132;
+            </Link>
           </li>
         </ul>
       </div>
@@ -81,7 +87,7 @@ const AssetBlock = () => (
           locating from one of Australia’s leading underground utility locating
           services Queensland & Northern NSW.
         </p>
-        <Link className="go" to="/">
+        <Link className="go" to="/contact">
           Contact us &#10132;
         </Link>
       </div>

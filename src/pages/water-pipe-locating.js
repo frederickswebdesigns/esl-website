@@ -8,20 +8,20 @@ import MainContainer from "../components/containers/mainContainer"
 import Razor from "../components/containers/razorContainer"
 import QuoteForm from "../components/quoteForm"
 
-import MarkingImage from "../components/gatsbyimages/markingImg"
-import StyledUmBackground from "../components/backgroundimages/umHero"
-import MapImage from "../components/gatsbyimages/utilityMapImg"
+import StyledWaterBackground from "../components/backgroundimages/waterHero"
 
-const ElectroDectPage = () => (
+const WaterPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <StyledUmBackground />
+    <StyledWaterBackground />
     <Razor>
       <div className="content"></div>
 
       <MainContainer>
         <div className="leftContent">
-          <h2 style={{ color: "#dc2e22" }}>Why Utility Mapping is Important</h2>
+          <h2 style={{ color: "#dc2e22" }}>
+            What Are the Dangers of Damaged Water Pipes?
+          </h2>
           <p
             style={{
               fontWeight: "900",
@@ -29,39 +29,67 @@ const ElectroDectPage = () => (
               fontFamily: "Neo Sans Bold Italic",
             }}
           >
-            Underground Utility Mapping is important anytime you are going to
-            break ground on a property or job-site.
+            Damaged water pipes can be very harmful as they are known to cause
+            serious problems. For instance, if an underground water line is
+            damaged or if there’s any break in the pipeline, water is released
+            from the pipeline at high pressure which can propel debris from the
+            pipe as well as surrounding materials.
           </p>
           <p>
-            Utility maps identify what type of underground cables and pipes are
-            running through the property and their location. These utilities
-            include power cables, gas pipes, water, telecommunication cables,
-            storm drains, and abandoned/unknown underground services. Our
-            underground utility mapping service will give you comprehensive
-            knowledge of what’s underground, helping you ensure a safer work
-            environment and avoid preventable utility damage.
+            Such damaged water pipes are also capable of harming other
+            underground services and infrastructures. They can do so directly or
+            by eroding their materials upon washing away. This substantial
+            involvement of water in utilities and structures is regarded as very
+            harmful and can lead to a dangerous turn of events.
           </p>
-          <MapImage />
-          <h3>Underground Utility Mapping </h3>
+          <h3>Do You Want to Locate Buried Water Lines on Your Property?</h3>
           <p>
-            Once our experts have identified and marked out the locations of
-            your detectible{" "}
+            If you want to locate underground water pipes on your property or
+            job-site, our experienced{" "}
             <Link to="/cable-and-pipe-locating">
-              underground cables and pipes
-            </Link>
-            , we can then begin the utility mud mapping process. Our certified
-            cable locators use on-site mapping tools and techniques, to draw in
-            the location of the underground utilities on a site-map and provide
-            a depth estimation for each underground cable and pipe.
+              underground cable and pipe locators
+            </Link>{" "}
+            can help!
           </p>
-          <h4>Benefits of Underground Utility Maps</h4>
-          <ul>
-            <li>Minimize Risk</li>
-            <li>Avoid high repair costs</li>
-            <li>Safer work environment</li>
-            <li>Avoid the unexpected</li>
-            <li>Have confidence before you dig </li>
-          </ul>
+          <h4>Electromagnetic Method</h4>
+          <p>
+            The electromagnetic procedure is based on{" "}
+            <Link to="/electromagnetic-detection">
+              electromagnetic detection
+            </Link>{" "}
+            of utilities lying underground. It is by far the safest method of
+            underground utility location and water line location. The process
+            consists of a handful of ground-based operations through which all
+            sorts of underground water lines among various other cables and
+            lines such as, <Link to="/gas-line-locating">Gas</Link>,{" "}
+            <Link to="/sewer-line-locating">Sewer</Link>,{" "}
+            <Link to="/power-line-locating">
+              Telecommunication & Power cables
+            </Link>{" "}
+            can be located.
+          </p>
+          <h3>Underground Water Pipe Locator</h3>
+          <p>
+            Our experienced cable and pipe locators are well-equipped and
+            experienced to provide all sorts of{" "}
+            <Link to="underground-utility-locating-services">
+              Underground Utility Locating Services
+            </Link>
+            . If you have any plans of construction or excavation on your
+            property, then it is highly recommended you consult our expertise as
+            we will be more than happy to help you get the job done without any
+            issues. Dial-in now and acquire our services! Our number is{" "}
+            <a href="tel:0420346477">0420-346-477</a>.
+          </p>
+          <p>
+            If you have any queries or questions, then feel free to let us know
+            via email. Our email address is{" "}
+            <a href="mailto:info@expertservicelocating.com.au">
+              info@expertservicelocating.com.au
+            </a>
+            . We also provide you with a free quote. So if you would like to
+            find out more then give us a call right away
+          </p>
           <Link to="/">Go back to the homepage</Link>
         </div>
         <QuoteForm formWidth="400px" />
@@ -70,4 +98,4 @@ const ElectroDectPage = () => (
   </Layout>
 )
 
-export default ElectroDectPage
+export default WaterPage

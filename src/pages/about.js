@@ -40,10 +40,11 @@ const AboutPage = () => (
             We strive to be the best in the utility location industry. That is
             why we use state-of-the-art technologies that enable us to use
             different frequencies to find your{" "}
-            <Link to="/">Cable and Pipe location</Link>,{" "}
-            <Link to="/">Power Line location</Link>,{" "}
-            <Link to="/">Gas Line location</Link>, as well as <Link>Sewer</Link>{" "}
-            and <Link>Water Line location</Link>.
+            <Link to="/cable-and-pipe-locating">Cable and Pipe location</Link>,{" "}
+            <Link to="/power-line-locating">Power Line location</Link>,{" "}
+            <Link to="/gas-line-locating">Gas Line location</Link>, as well as{" "}
+            <Link to="sewer-line-locating">Sewer</Link> and{" "}
+            <Link to="water-pipe-locating">Water Line location</Link>.
           </p>
           <TechnicianImage />
           <h3>17 Years Finding Underground Utilities </h3>
@@ -100,7 +101,7 @@ const AboutPage = () => (
           </p>
           <Link to="/">Go back to the homepage</Link>
         </div>
-        <QuoteForm formWidth="400px" />
+        <QuoteForm />
       </MainContainer>
     </Razor>
   </Layout>

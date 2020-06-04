@@ -33,8 +33,8 @@ const MainContainer = styled.div`
       margin: 1rem;
     }
     .leftContent {
-      ${"" /* width: 50%; */}
-      min-width: 604px;
+      width: 60%;
+
       padding-right: 1rem;
     }
   }
