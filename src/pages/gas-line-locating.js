@@ -19,7 +19,7 @@ const GasPage = () => (
 
       <MainContainer>
         <div className="leftContent">
-          <h2 style={{ color: "#dc2e22" }}>WWhat Are Gas Lines?</h2>
+          <h2 style={{ color: "#dc2e22" }}>What Are Gas Lines?</h2>
           <p
             style={{
               fontWeight: "900",
@@ -32,8 +32,9 @@ const GasPage = () => (
           </p>
           <p>
             In order to start work on any residential or commercial digging
-            projects, it is necessary to be aware of any underground utility
-            lines before any digging or excavation begins.
+            projects, it is necessary to be aware of any{" "}
+            <Link to="/cable-and-pipe-locating">underground utility lines</Link>{" "}
+            before any digging or excavation begins.
           </p>
           <h3>Can Damaging a Gas Line Be Dangerous?</h3>
           <p>
@@ -49,15 +50,20 @@ const GasPage = () => (
           </p>
           <h3>Underground Gas Line Locators</h3>
           <p>
-            Gas line locating requires electromagnetic line detecting tools and
-            equipment. The process includes a measure of competence as well as
-            diligence. With the help of our advanced electromagnetic detection
-            system, we identify the underground gas pipe location and notify the
-            concerned person about this discovery. Ensuring they avoid these
-            buried gas lines in the future. We then clearly mark lines which
-            identify these spots, so you know which areas to avoid. We also
-            offer Underground Utility Mapping, so you have an on-hand map of
-            what and where your underground utilities are located.
+            Gas line locating requires{" "}
+            <Link to="/electromagnetic-detection">
+              electromagnetic line detecting tools
+            </Link>{" "}
+            and equipment. The process includes a measure of competence as well
+            as diligence. With the help of our advanced electromagnetic
+            detection system, we identify the underground gas pipe location and
+            notify the concerned person about this discovery. Ensuring they
+            avoid these buried gas lines in the future. We then clearly mark
+            lines which identify these spots, so you know which areas to avoid.
+            We also offer{" "}
+            <Link to="/utility-mapping">Underground Utility Mapping</Link>, so
+            you have an on-hand map of what and where your underground utilities
+            are located.
           </p>
           <p>
             When it comes to gas pipe locating, Expert Service Locating has
@@ -74,10 +80,16 @@ const GasPage = () => (
           <p>
             To acquire the services of our highly experienced staff and find out
             about any underground gas lines on your property or any of our other
-            Underground Utility Locating Services, contact us now at
-            0420-346-477! You can also send us an email at
-            info@expertservicelocating.com.au. Don’t wait any further! Make sure
-            you dial before you dig today and avoid hazardous situations!
+            <Link to="/underground-utility-locating-services">
+              Underground Utility Locating Services
+            </Link>
+            , contact us now at <a href="tel:0420346477">0420-346-477</a> You
+            can also send us an email at{" "}
+            <a href="mailto:info@expertservicelocating.com.au">
+              info@expertservicelocating.com.au
+            </a>
+            . Don’t wait any further! Make sure you dial before you dig today
+            and avoid hazardous situations!
           </p>
           <Link to="/">Go back to the homepage</Link>
         </div>

@@ -29,10 +29,13 @@ const UULSPage = () => (
             prior to any digging.
           </p>
           <p>
-            Since various sorts of underground cables and pipes are manufactured
-            using a wide variety of materials, high-tech and advanced methods
-            are required for the detection and location of these underground
-            utilities.
+            Since various sorts of{" "}
+            <Link to="/cable-and-pipe-locating">
+              underground cables and pipes
+            </Link>{" "}
+            are manufactured using a wide variety of materials, high-tech and
+            advanced methods are required for the detection and location of
+            these underground utilities.
           </p>
           <p>
             Because most utility maps lack the necessary precision needed to
@@ -44,6 +47,20 @@ const UULSPage = () => (
             If you are looking for a solution to your underground utility
             location problems, then wait no further and act now by contacting us
             at <a href="tel:0420346477">0420-346-477.</a>
+          </p>
+          <h3>Our Range of Services</h3>
+          <ChildBlock />
+          <p>
+            We are Telstra accredited, DBYD certified, fully insured, and have
+            extensive knowledge of the country’s underground infrastructure. Our
+            highly experienced staff carry out each underground location service
+            with the highest standard of professionalism and use only the best
+            methods and state-of-the-art underground location equipment
+            available. Reputation speaks for itself as we have been in the
+            underground utility locating industry for over 17 years. No matter
+            how big or small, we can provide you with the underground cable and
+            pipe location services necessary to make your next project a
+            success.{" "}
           </p>
           <h3>We Offer Underground Utility Locating Solutions</h3>
           <p>
@@ -62,20 +79,7 @@ const UULSPage = () => (
             of damage, injury and unnecessary repair costs. We provide the
             knowledge of what is underground, so can you dig with confidence!
           </p>
-          <h3>Our Range of Services</h3>
-          <ChildBlock />
-          <p>
-            We are Telstra accredited, DBYD certified, fully insured, and have
-            extensive knowledge of the country’s underground infrastructure. Our
-            highly experienced staff carry out each underground location service
-            with the highest standard of professionalism and use only the best
-            methods and state-of-the-art underground location equipment
-            available. Reputation speaks for itself as we have been in the
-            underground utility locating industry for over 17 years. No matter
-            how big or small, we can provide you with the underground cable and
-            pipe location services necessary to make your next project a
-            success.{" "}
-          </p>
+
           <h3>Contact Us Now!</h3>
           <p>
             So dial in now to acquire our services! You can also ask us for a

@@ -31,8 +31,11 @@ const ElectroDectPage = () => (
             }}
           >
             Electromagnetic Detection is by far the safest and most accurate way
-            to find locatable underground utilities with no damage to your
-            property or the environment.
+            to{" "}
+            <Link to="cable-and-pipe-locating">
+              find locatable underground utilities
+            </Link>{" "}
+            with no damage to your property or the environment.
           </p>
           <p>
             This cutting edge technology enables us to locate a wide range of
@@ -52,8 +55,12 @@ const ElectroDectPage = () => (
             technologies that enable us to use a wide range of locating
             frequencies. Because of this, we can trace, identify and mark out
             both easy and hard-to-find underground cables and pipes. These
-            include Telecommunication & Power, Water Pipes, Fibre Optic cables,
-            Traffic Lights, Street Lights, Gas and much more.
+            include{" "}
+            <Link to="/power-line-locating">Telecommunication & Power</Link>,{" "}
+            <Link to="water-pipe-locating">Water Pipes</Link>, Fibre Optic
+            cables, Traffic Lights, Street Lights,{" "}
+            <Link to="gas-line-locating">Gas</Link>,{" "}
+            <Link to="/gas-line-locating">Sewer</Link> and much more.
           </p>
           <p>
             Whether you are a contractor starting work on a job-site or a
@@ -65,8 +72,8 @@ const ElectroDectPage = () => (
           </p>
           <p>
             Before you start any digging or excavating on your project, call one
-            of our professional cable and pipe locators. Know what’s
-            underground. Dig with confidence.{" "}
+            of our <Link to="/about">professional cable and pipe locators</Link>
+            . Know what’s underground. Dig with confidence.{" "}
           </p>
 
           <Link to="/">Go back to the homepage</Link>

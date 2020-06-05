@@ -88,9 +88,10 @@ const CablePipePage = () => (
             experience and hardworking mentality. Furthermore, we offer
             state-of-the-art equipment in such processes, including
             electromagnetic equipment that makes the task even easier and
-            efficient. With 12 years of experience in the underground asset
-            location industry, we rank among the country’s leading cable and
-            pipe locating companies with an unparalleled service quality.
+            efficient. With 17 years of experience in the underground asset
+            location industry, we rank among the country’s{" "}
+            <Link to="/about">leading cable and pipe locating companies</Link>{" "}
+            with an unparalleled service quality.
           </p>
 
           <Link to="/">Go back to the homepage</Link>
