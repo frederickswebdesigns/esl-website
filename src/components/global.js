@@ -40,5 +40,6 @@ const GlobalStyles = createGlobalStyle`
     color: white;
     background: #000333;
   }
+
   `
 export default GlobalStyles

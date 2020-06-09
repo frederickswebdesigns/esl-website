@@ -55,7 +55,7 @@ const BackgroundSection = ({ className }) => (
 
 const StyledHomeBackground = styled(BackgroundSection)`
   width: 100%;
-  margin-top: 83px;
+  margin-top: 122px;
   height: 500px;
   background-position: left center;
   background-repeat: repeat-y;
