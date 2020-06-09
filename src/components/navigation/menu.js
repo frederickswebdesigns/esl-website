@@ -80,7 +80,7 @@ const Menu = ({ open }) => {
       <Link
         onClick={toggleHandler}
         activeStyle={activeStyle}
-        to="/underground-locating-services"
+        to="/underground-utility-locating-services"
       >
         Locating Services &#10132;
       </Link>
