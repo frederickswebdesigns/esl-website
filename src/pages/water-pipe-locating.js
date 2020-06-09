@@ -12,7 +12,10 @@ import StyledWaterBackground from "../components/backgroundimages/waterHero"
 
 const WaterPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO
+      title="Underground Water Pipe Locating"
+      content="If you want to locate underground water pipes on your property or job-site, our experienced underground cable and pipe locators can help."
+    />
     <StyledWaterBackground />
     <Razor>
       <div className="content"></div>

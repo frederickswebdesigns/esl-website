@@ -14,7 +14,10 @@ import MapImage from "../components/gatsbyimages/utilityMapImg"
 
 const ElectroDectPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO
+      title="Underground Utility Mapping"
+      content="Our underground utility mapping service will give you comprehensive knowledge of what’s underground, helping you ensure a safer work environment."
+    />
     <StyledUmBackground />
     <Razor>
       <div className="content"></div>

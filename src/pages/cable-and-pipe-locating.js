@@ -14,7 +14,10 @@ import Accordion from "../components/accordion"
 
 const CablePipePage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO
+      title="Underground Cable & Pipe Locating"
+      content="Our certified underground cable and pipe locators offer utility mapping to Brisbane, Gold Coast, and Northern NSW. Know what underground. Dig with confidence."
+    />
     <StyledCpBackground />
     <Razor>
       <div className="content"></div>

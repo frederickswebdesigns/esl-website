@@ -13,7 +13,10 @@ import MarkingImage from "../components/gatsbyimages/markingImg"
 
 const ElectroDectPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO
+      title="Electromagnetic Detection Brisbane"
+      content="Electromagnetic Detection technology enables us to locate a wide range of traceable utility services buried beneath the ground."
+    />
     <StyledEdBackground />
     <Razor>
       <div className="content"></div>

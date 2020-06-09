@@ -20,7 +20,7 @@ const TechnicianImage = () => {
         relativePath: { eq: "expert-service-locating-technician.png" }
       ) {
         childImageSharp {
-          fixed(width: 250) {
+          fixed(width: 240) {
             ...GatsbyImageSharpFixed
           }
         }

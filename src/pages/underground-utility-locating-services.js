@@ -13,7 +13,10 @@ import ChildBlock from "../components/childServices"
 import PageContainer from "../components/containers/pageContainer"
 const UULSPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO
+      title="Underground Utility Locating Service"
+      content="Our underground service locators offer comprehensive underground utility locating services throughout Brisbane, Gold Coast, and Northern Rivers."
+    />
     <StyledUULSBackground />
     <Razor>
       <div className="content"></div>

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    siteUrl: `https://elated-nightingale-a33e4c.netlify.app/`,
+    title: `Expert Service Locating`,
+    description: `Need to know the location of your underground assets? We provide underground cable and pipe location services throughout Brisbane, Gold Coast and Northern NSW. `,
+    siteUrl: `https://elated-nightingale-a33e4c.netlify.app`,
     author: `@gatsbyjs`,
   },
   plugins: [

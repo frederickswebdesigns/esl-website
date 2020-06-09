@@ -15,7 +15,10 @@ import CertBlock from "../components/certSection"
 import { Link } from "gatsby"
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO
+      title="Underground Locating Queensland"
+      content="Need to know the location of your underground assets? We provide underground cable and pipe location services throughout Brisbane, Gold Coast and Northern NSW."
+    />
     <StyledHomeBackground />
     <Razor>
       <div className="content">
