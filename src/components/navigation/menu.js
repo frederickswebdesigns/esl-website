@@ -104,7 +104,7 @@ const Menu = ({ open }) => {
         <Link activeStyle={activeStyle} to="/electromagnetic-detection">
           Electromagnetic Detection
         </Link>
-        <Link activeStyle={activeStyle} to="/underground-utility-mapping">
+        <Link activeStyle={activeStyle} to="/utility-mapping">
           Utility Mapping
         </Link>
       </motion.div>
