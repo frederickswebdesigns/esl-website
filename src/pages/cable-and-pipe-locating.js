@@ -61,7 +61,7 @@ const CablePipePage = () => (
             locating process easier.
           </p>
           <Accordion
-            title="Underground Power & Telecommunication locating"
+            title="Telecom & Power Underground locating"
             content="Damaging a Power Line or Telecommunications cable can leave nearby residence without access to power, internet, cell phones, and landlines. Meaning they lose the ability to contact emergency services. This situation is a complete disaster. And the cost to repair one of these underground service cables can be astronomical not to mention the risk of injury to nearby persons. For this reason, our underground service locators have developed the essential skills and procedures through years of experience so you can dig with confidence."
             link="power-line-locating"
           />
