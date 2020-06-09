@@ -6,6 +6,7 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {

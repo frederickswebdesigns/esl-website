@@ -1,0 +1,13 @@
+/home              /
+/about-us          /about
+/services/underground-utility-locating-service	       /underground-utility-locating-services
+/services          /underground-utility-locating-services
+/services/ground-penetrating-radar /methods
+/services/cable-and-pipe-locating  /cable-and-pipe-locating
+/services/electromagnetic-detection  /electromagnetic-detection
+/services/cable-and-pipe-locating/power-line-locating     /power-line-locating
+/services/water-line-locating     /water-pipe-locating
+/services/gas-line-locating     /gas-line-locating
+/services/sewer-line-locating     /sewer-line-locating
+
+/contact-us /contact
