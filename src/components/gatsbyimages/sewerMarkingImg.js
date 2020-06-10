@@ -19,7 +19,7 @@ const SewerMarkingImage = () => {
       placeholderImage: file(relativePath: { eq: "sewer-line-markings.JPG" }) {
         childImageSharp {
           fluid(maxWidth: 900) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

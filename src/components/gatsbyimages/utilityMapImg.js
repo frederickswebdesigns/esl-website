@@ -19,7 +19,7 @@ const MapImage = () => {
       placeholderImage: file(relativePath: { eq: "utility-maps.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 900) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

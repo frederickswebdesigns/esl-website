@@ -19,7 +19,7 @@ const UMimg = () => {
       placeholderImage: file(relativePath: { eq: "utility-mapping.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 700) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

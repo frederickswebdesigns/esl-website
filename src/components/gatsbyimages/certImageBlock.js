@@ -21,7 +21,7 @@ const ImageBlockCert = ({ style }) => {
       ) {
         childImageSharp {
           fluid(quality: 90, maxWidth: 1260) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

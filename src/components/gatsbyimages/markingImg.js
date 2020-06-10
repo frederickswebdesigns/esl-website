@@ -21,7 +21,7 @@ const MarkingImage = () => {
       ) {
         childImageSharp {
           fluid(maxWidth: 900) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
