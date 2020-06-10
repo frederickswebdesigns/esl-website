@@ -10,7 +10,7 @@ const BackgroundSection = ({ className }) => (
       query {
         desktop: file(relativePath: { eq: "utility-mapping.jpg" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 1920) {
+            fluid(quality: 90, maxWidth: 1260) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }

@@ -12,7 +12,7 @@ const BackgroundSection = ({ className }) => (
           relativePath: { eq: "underground-utility-locations.JPG" }
         ) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 1920) {
+            fluid(quality: 90, maxWidth: 1260) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }

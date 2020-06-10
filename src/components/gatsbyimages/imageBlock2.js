@@ -20,7 +20,7 @@ const ImageBlockTwo = () => {
         relativePath: { eq: "underground-locating-tracer.JPG" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
+          fluid(quality: 90, maxWidth: 1260) {
             ...GatsbyImageSharpFluid
           }
         }

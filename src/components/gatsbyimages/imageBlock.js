@@ -20,7 +20,7 @@ const ImageBlock = () => {
         relativePath: { eq: "underground-service-locator.jpg" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
+          fluid(quality: 90, maxWidth: 1260) {
             ...GatsbyImageSharpFluid
           }
         }
