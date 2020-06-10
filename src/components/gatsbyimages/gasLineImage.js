@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const GasImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "gas-line-warning.JPG" }) {
+      placeholderImage: file(relativePath: { eq: "gas-line-locating.jpg" }) {
         childImageSharp {
           fixed(width: 240) {
             ...GatsbyImageSharpFixed
@@ -28,11 +28,10 @@ const GasImage = () => {
 
   return (
     <Img
-      className="about-image"
       fixed={data.placeholderImage.childImageSharp.fixed}
       alt="Dial Before You Dig Gas Line Warning Sign"
     />
   )
 }
 
-export default GaseImage
+export default GasImage

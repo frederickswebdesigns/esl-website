@@ -7,7 +7,7 @@ import MainContainer from "../components/containers/mainContainer"
 
 import Razor from "../components/containers/razorContainer"
 import QuoteForm from "../components/quoteForm"
-
+import GasImage from "../components/gatsbyimages/gasLineImage"
 import StyledGasBackground from "../components/backgroundimages/gasHero"
 
 const GasPage = () => (
@@ -36,6 +36,7 @@ const GasPage = () => (
             <Link to="/cable-and-pipe-locating">underground utility lines</Link>{" "}
             before any digging or excavation begins.
           </p>
+          <GasImage />
           <h3>Can Damaging a Gas Line Be Dangerous?</h3>
           <p>
             If you damage an underground gas pipe due to digging or excavating,
