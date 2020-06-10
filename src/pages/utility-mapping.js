@@ -8,7 +8,6 @@ import MainContainer from "../components/containers/mainContainer"
 import Razor from "../components/containers/razorContainer"
 import QuoteForm from "../components/quoteForm"
 
-import MarkingImage from "../components/gatsbyimages/markingImg"
 import StyledUmBackground from "../components/backgroundimages/umHero"
 import MapImage from "../components/gatsbyimages/utilityMapImg"
 

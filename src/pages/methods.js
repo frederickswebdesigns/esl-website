@@ -31,8 +31,8 @@ const MethodPage = () => (
             identify whether or not any underground utilities, such as{" "}
             <Link to="/gas-line-locating">gas pipes</Link>,{" "}
             <Link to="/water-pipe-locating">water pipes</Link>,{" "}
-            <Link to="sewer-line-locating">sewer lines</Link>, and other{" "}
-            <Link to="cable-and-pipe-locating">pipes and cables</Link> were
+            <Link to="/sewer-line-locating">sewer lines</Link>, and other{" "}
+            <Link to="/cable-and-pipe-locating">pipes and cables</Link> were
             present on their properties.
           </p>
           <p>

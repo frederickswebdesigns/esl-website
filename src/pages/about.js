@@ -46,8 +46,8 @@ const AboutPage = () => (
             <Link to="/cable-and-pipe-locating">Cable and Pipe location</Link>,{" "}
             <Link to="/power-line-locating">Power Line location</Link>,{" "}
             <Link to="/gas-line-locating">Gas Line location</Link>, as well as{" "}
-            <Link to="sewer-line-locating">Sewer</Link> and{" "}
-            <Link to="water-pipe-locating">Water Line location</Link>.
+            <Link to="/sewer-line-locating">Sewer</Link> and{" "}
+            <Link to="/water-pipe-locating">Water Line location</Link>.
           </p>
           <TechnicianImage />
           <h3>17 Years Finding Underground Utilities </h3>

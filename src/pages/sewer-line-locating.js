@@ -77,9 +77,9 @@ const SewerPage = () => (
             If you are looking to do any building or digging on your property,
             then you should call us before you start your project. We will help
             you by making sure you don’t tamper with any underground sewer,{" "}
-            <Link to="water-pipe-locating">water</Link>,{" "}
-            <Link to="gas-line-locating">gas</Link> or{" "}
-            <Link to="power-line-locating">
+            <Link to="/water-pipe-locating">water</Link>,{" "}
+            <Link to="/gas-line-locating">gas</Link> or{" "}
+            <Link to="/power-line-locating">
               power and telecommunication lines
             </Link>{" "}
             during your work so that you can avoid unnecessary risks.

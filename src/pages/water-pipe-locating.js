@@ -75,7 +75,7 @@ const WaterPage = () => (
           <p>
             Our experienced cable and pipe locators are well-equipped and
             experienced to provide all sorts of{" "}
-            <Link to="underground-utility-locating-services">
+            <Link to="/underground-utility-locating-services">
               Underground Utility Locating Services
             </Link>
             . If you have any plans of construction or excavation on your

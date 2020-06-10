@@ -35,7 +35,7 @@ const ElectroDectPage = () => (
           >
             Electromagnetic Detection is by far the safest and most accurate way
             to{" "}
-            <Link to="cable-and-pipe-locating">
+            <Link to="/cable-and-pipe-locating">
               find locatable underground utilities
             </Link>{" "}
             with no damage to your property or the environment.
@@ -60,9 +60,9 @@ const ElectroDectPage = () => (
             both easy and hard-to-find underground cables and pipes. These
             include{" "}
             <Link to="/power-line-locating">Telecommunication & Power</Link>,{" "}
-            <Link to="water-pipe-locating">Water Pipes</Link>, Fibre Optic
+            <Link to="/water-pipe-locating">Water Pipes</Link>, Fibre Optic
             cables, Traffic Lights, Street Lights,{" "}
-            <Link to="gas-line-locating">Gas</Link>,{" "}
+            <Link to="/gas-line-locating">Gas</Link>,{" "}
             <Link to="/gas-line-locating">Sewer</Link> and much more.
           </p>
           <p>

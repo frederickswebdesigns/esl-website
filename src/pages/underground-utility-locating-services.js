@@ -3,7 +3,6 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import MainContainer from "../components/containers/mainContainer"
 
 import Razor from "../components/containers/razorContainer"
 import QuoteForm from "../components/quoteForm"
