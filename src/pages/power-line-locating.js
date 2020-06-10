@@ -70,7 +70,7 @@ const PowerPage = () => (
             </Link>
             . The electromagnetic locating process is the most effective and
             safest way to{" "}
-            <Link to="/pipe-and-cable-locating">find underground pipes</Link>,
+            <Link to="/cable-and-pipe-locating">find underground pipes</Link>,
             cables and power lines.{" "}
           </p>
           <DbydCert /> <TelstraCert />
