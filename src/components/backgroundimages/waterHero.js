@@ -48,7 +48,7 @@ const StyledWaterBackground = styled(BackgroundSection)`
   width: 100%;
   margin-top: 122px;
   height: 400px;
-  background-position: top right;
+  background-position: bottom right;
   background-repeat: repeat-y;
   background-size: cover;
   position: relative;
