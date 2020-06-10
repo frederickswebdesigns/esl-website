@@ -32,7 +32,7 @@ const ImageBlockTwo = () => {
     <div>
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
-        style={{ width: "100%", height: "500px", borderTop: "solid 25px #eee" }}
+        style={{ height: "500px", borderTop: "solid 25px #eee" }}
         alt="Locating underground pipes with tracer wire"
       />
     </div>
