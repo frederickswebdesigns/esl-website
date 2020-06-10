@@ -20,7 +20,7 @@ const ImageBlock = () => {
         relativePath: { eq: "underground-service-locator.jpg" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 1260) {
+          fluid(quality: 90, maxWidth: 1260) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -32,7 +32,7 @@ const ImageBlock = () => {
     <div>
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
-        style={{ height: "500px", borderTop: "solid 25px #eee" }}
+        style={{ width: "100%", height: "500px", borderTop: "solid 25px #eee" }}
         alt="Electromagnetic Underground service locator"
       />
     </div>
