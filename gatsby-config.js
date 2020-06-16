@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Expert Service Locating`,
     description: `Need to know the location of your underground assets? We provide underground cable and pipe location services throughout Brisbane, Gold Coast and Northern NSW. `,
-    siteUrl: `https://elated-nightingale-a33e4c.netlify.app`,
+    siteUrl: `https://expertservicelocating.com.au`,
     author: `@gatsbyjs`,
   },
   plugins: [
