@@ -53,17 +53,6 @@ const StyledGasBackground = styled(BackgroundSection)`
   background-size: cover;
   position: relative;
 
-  ${"" /* a {
-    display: inline-block;
-    margin: 1.45rem 10px;
-    color: white;
-    text-decoration: none;
-    font-family: "Neo Sans Bold Italic", -apple-system, BlinkMacSystemFont,
-      "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-      "Segoe UI Emoji", "Segoe UI Symbol";
-    padding: 15px 25px;
-    border-radius: 15px;
-  } */}
   .blue {
     background: #000333;
     display: inline-block;

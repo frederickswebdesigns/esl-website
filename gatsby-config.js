@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        policy: [{ userAgent: "*", disallow: ["/"] }],
+        policy: [{ userAgent: "*", allow: "/" }],
       },
     },
     `gatsby-plugin-react-helmet`,
