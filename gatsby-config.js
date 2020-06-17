@@ -6,6 +6,7 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-netlify`,
     {
