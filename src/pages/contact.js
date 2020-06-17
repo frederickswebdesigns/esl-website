@@ -13,7 +13,7 @@ import StyledContactBackground from "../components/backgroundimages/contactHero"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Contact" />
     <StyledContactBackground />
     <Razor>
       <div className="content"></div>

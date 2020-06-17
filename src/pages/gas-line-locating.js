@@ -12,7 +12,7 @@ import StyledGasBackground from "../components/backgroundimages/gasHero"
 
 const GasPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Gas Line Locating" />
     <StyledGasBackground />
     <Razor>
       <div className="content"></div>

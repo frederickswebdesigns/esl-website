@@ -14,7 +14,7 @@ import SewerEquipmentImage from "../components/gatsbyimages/sewerEquipImg"
 
 const SewerPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Sewer Line Locating" />
     <StyledSewerBackground />
     <Razor>
       <div className="content"></div>

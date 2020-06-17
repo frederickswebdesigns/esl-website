@@ -14,7 +14,7 @@ import TelstraCert from "../components/gatsbyimages/telstraCert"
 
 const PowerPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Telecom & Power Locating" />
     <StyledPowerBackground />
     <Razor>
       <div className="content"></div>

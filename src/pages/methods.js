@@ -14,7 +14,7 @@ import StyledMethodsBackground from "../components/backgroundimages/methodsHero"
 
 const MethodPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Service Locating Methods" />
     <StyledMethodsBackground />
     <Razor>
       <MainContainer>
