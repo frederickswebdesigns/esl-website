@@ -80,7 +80,6 @@ const StyledContactBackground = styled(BackgroundSection)`
     background: rgba(0, 0, 0, 0.2);
     width: 100%;
 
-    ${"" /* font-weight: 900; */}
     .wrapper {
       max-width: 1208px;
       padding: 0 1.0875rem;
