@@ -15,7 +15,7 @@ const ElectroDectPage = () => (
   <Layout>
     <SEO
       title="Underground Utility Mapping"
-      content="Our underground utility mapping service will give you comprehensive knowledge of what’s underground, helping you ensure a safer work environment."
+      description="Our underground utility mapping service will give you comprehensive knowledge of what’s underground, helping you ensure a safer work environment."
     />
     <StyledUmBackground />
     <Razor>

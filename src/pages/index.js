@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Underground Locating Queensland"
-      content="Need to know the location of your underground assets? We provide underground cable and pipe location services throughout Brisbane, Gold Coast and Northern NSW."
+      description="Need to know the location of your underground assets? We provide underground cable and pipe location services throughout Brisbane, Gold Coast and Northern NSW."
     />
     <StyledHomeBackground />
     <Razor>

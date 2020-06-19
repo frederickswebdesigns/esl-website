@@ -16,7 +16,7 @@ const CablePipePage = () => (
   <Layout>
     <SEO
       title="Underground Cable & Pipe Locating"
-      content="Our certified underground cable and pipe locators offer utility mapping to Brisbane, Gold Coast, and Northern NSW. Know what underground. Dig with confidence."
+      description="Our certified underground cable and pipe locators offer utility mapping to Brisbane, Gold Coast, and Northern NSW. Know what underground. Dig with confidence."
     />
     <StyledCpBackground />
     <Razor>
@@ -65,22 +65,22 @@ const CablePipePage = () => (
           </p>
           <Accordion
             title="Telecom & Power Underground locating"
-            content="Damaging a Power Line or Telecommunications cable can leave nearby residence without access to power, internet, cell phones, and landlines. Meaning they lose the ability to contact emergency services. This situation is a complete disaster. And the cost to repair one of these underground service cables can be astronomical not to mention the risk of injury to nearby persons. For this reason, our underground service locators have developed the essential skills and procedures through years of experience so you can dig with confidence."
+            description="Damaging a Power Line or Telecommunications cable can leave nearby residence without access to power, internet, cell phones, and landlines. Meaning they lose the ability to contact emergency services. This situation is a complete disaster. And the cost to repair one of these underground service cables can be astronomical not to mention the risk of injury to nearby persons. For this reason, our underground service locators have developed the essential skills and procedures through years of experience so you can dig with confidence."
             link="power-line-locating"
           />
           <Accordion
             title="Underground Water Pipe Locating"
-            content="Accidentally hitting an underground water pipe can be a complete disaster. Once hit, the force from the water pressure can cause it to shoot in many different directions, taking with it loose debris, putting those nearby at risk. Calling a certified underground service locator before you dig is the best way to avoid these unnecessary damages and costs. At Expert Service Locating we do our job so you can so yours can be safer."
+            description="Accidentally hitting an underground water pipe can be a complete disaster. Once hit, the force from the water pressure can cause it to shoot in many different directions, taking with it loose debris, putting those nearby at risk. Calling a certified underground service locator before you dig is the best way to avoid these unnecessary damages and costs. At Expert Service Locating we do our job so you can so yours can be safer."
             link="water-pipe-locating"
           />
           <Accordion
             title="Underground Gas Line Locating"
-            content="Hitting an underground utility line can be very costly and inconvenient. But if one of these lines is an underground gas pipe, there can be many risks involved. Due to the leaking of gases, damaging this underground service pipe can lead to fires and explosions, making it extremely dangerous for everyone in or around the damaged pipe area. For this reason, Expert Service Locate has the equipment, and the qualified underground service locators necessary to help you avoid these dangerous situations."
+            description="Hitting an underground utility line can be very costly and inconvenient. But if one of these lines is an underground gas pipe, there can be many risks involved. Due to the leaking of gases, damaging this underground service pipe can lead to fires and explosions, making it extremely dangerous for everyone in or around the damaged pipe area. For this reason, Expert Service Locate has the equipment, and the qualified underground service locators necessary to help you avoid these dangerous situations."
             link="gas-line-locating"
           />
           <Accordion
             title="Underground Sewer Line Locating"
-            content="Damaging an underground sewer line on your job site or property exposes you to a bunch of hazards and time-consuming problems. Hitting a sewer line can propel debris, contaminate water supplies and damage the environment. Worst of all, leaking sewage can be hazardous to nearby people due to the harmful and toxic gases and waste. We at Expert Service Locate have specialized underground service locating equipment and ironclad experience to help you avoid these unnecessary issues."
+            description="Damaging an underground sewer line on your job site or property exposes you to a bunch of hazards and time-consuming problems. Hitting a sewer line can propel debris, contaminate water supplies and damage the environment. Worst of all, leaking sewage can be hazardous to nearby people due to the harmful and toxic gases and waste. We at Expert Service Locate have specialized underground service locating equipment and ironclad experience to help you avoid these unnecessary issues."
             link="sewer-line-locating"
           />
           <h3 style={{ marginTop: "2rem" }}>Underground Cable Locator</h3>

@@ -14,7 +14,7 @@ const AboutPage = () => (
   <Layout>
     <SEO
       title="About Us"
-      content="Expert Service Locating is a commercial and residential underground utility locating company servicing Brisbane, Gold Coast & Northern Rivers. Dig with confidence."
+      description="Expert Service Locating is a commercial and residential underground utility locating company servicing Brisbane, Gold Coast & Northern Rivers. Dig with confidence."
     />
     <StyledAboutBackground />
     <Razor>

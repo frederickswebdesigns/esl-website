@@ -15,7 +15,7 @@ const ElectroDectPage = () => (
   <Layout>
     <SEO
       title="Electromagnetic Detection Brisbane"
-      content="Electromagnetic Detection technology enables us to locate a wide range of traceable utility services buried beneath the ground."
+      description="Electromagnetic Detection technology enables us to locate a wide range of traceable utility services buried beneath the ground."
     />
     <StyledEdBackground />
     <Razor>

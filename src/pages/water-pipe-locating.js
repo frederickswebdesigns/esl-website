@@ -14,7 +14,7 @@ const WaterPage = () => (
   <Layout>
     <SEO
       title="Underground Water Pipe Locating"
-      content="If you want to locate underground water pipes on your property or job-site, our experienced underground cable and pipe locators can help."
+      description="If you want to locate underground water pipes on your property or job-site, our experienced underground cable and pipe locators can help."
     />
     <StyledWaterBackground />
     <Razor>
