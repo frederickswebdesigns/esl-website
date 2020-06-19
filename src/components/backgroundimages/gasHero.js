@@ -29,7 +29,7 @@ const BackgroundSection = ({ className }) => (
         >
           <div className="container">
             <div className="wrapper">
-              <h1>Gase Line Locating</h1> <br />
+              <h1>Gas Line Locating</h1> <br />
               <Link className="blue go " to="/cable-and-pipe-locating">
                 Pipe & Cables
               </Link>

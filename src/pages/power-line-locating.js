@@ -44,9 +44,9 @@ const PowerPage = () => (
           </p>
           <p>
             Avoid the headache of unnecessary damages, high repair costs and
-            injuries. Call us now at{" "}
-            <Link to="tel:0420346477">0420-346-477</Link> to locate power lines
-            and any other underground services on your property or job-site!
+            injuries. Call us now at <a href="tel:0420346477">0420-346-477</a>{" "}
+            to locate power lines and any other underground services on your
+            property or job-site!
           </p>
           <h3>Looking for Power Line Locators near me?</h3>
           <p>

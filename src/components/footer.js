@@ -132,7 +132,7 @@ const Footer = () => (
             <Link to="/water-pipe-locating">Water</Link>
           </li>
           <li>
-            <Link to="/gase-line-locating">Gas</Link>
+            <Link to="/gas-line-locating">Gas</Link>
           </li>
           <li>
             <Link to="/sewer-line-locating">Sewer</Link>
