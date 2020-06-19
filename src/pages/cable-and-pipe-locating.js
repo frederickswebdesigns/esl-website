@@ -39,7 +39,7 @@ const CablePipePage = () => (
           <p>
             These mains may include{" "}
             <Link to="/water-pipe-locating">water pipes</Link>,{" "}
-            <Link to="/gas-line-locator">gas lines</Link>,{" "}
+            <Link to="/gas-line-locating">gas lines</Link>,{" "}
             <Link to="/power-line-locating">
               power & telecommunications cables
             </Link>

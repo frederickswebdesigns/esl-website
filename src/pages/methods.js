@@ -93,8 +93,7 @@ const MethodPage = () => (
           <p>
             For all of your underground utility locating projects, Expert
             Service Locating is your number one source. Contact us now at{" "}
-            <Link to="tel:0420346477">0420-346-477</Link> and acquire our
-            services!
+            <a href="tel:0420346477">0420-346-477</a> and acquire our services!
           </p>
           <Link to="/">Go back to the homepage</Link>
         </div>
