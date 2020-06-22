@@ -12,7 +12,10 @@ import StyledGasBackground from "../components/backgroundimages/gasHero"
 
 const GasPage = () => (
   <Layout>
-    <SEO title="Gas Line Locating" />
+    <SEO
+      title="Gas Line Locating"
+      description="Our underground gas line locators can get the job done. Our highly qualified and well-versed underground cable and pipe locators can help you dig with confidence"
+    />
     <StyledGasBackground />
     <Razor>
       <div className="content"></div>

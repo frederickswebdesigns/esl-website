@@ -14,7 +14,10 @@ import TelstraCert from "../components/gatsbyimages/telstraCert"
 
 const PowerPage = () => (
   <Layout>
-    <SEO title="Telecom & Power Locating" />
+    <SEO
+      title="Telecom & Power Locating"
+      description="We offer power line location and telecommunication line solutions. Our underground locating specialists are the top choice for all your utility location needs."
+    />
     <StyledPowerBackground />
     <Razor>
       <div className="content"></div>

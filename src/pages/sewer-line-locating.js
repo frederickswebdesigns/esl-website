@@ -14,7 +14,10 @@ import SewerEquipmentImage from "../components/gatsbyimages/sewerEquipImg"
 
 const SewerPage = () => (
   <Layout>
-    <SEO title="Sewer Line Locating" />
+    <SEO
+      title="Sewer Line Locating"
+      description="The process of locating sewer lines underground requires state-of-the-art equipment and complex procedures which are carried out by our certified professionals."
+    />
     <StyledSewerBackground />
     <Razor>
       <div className="content"></div>

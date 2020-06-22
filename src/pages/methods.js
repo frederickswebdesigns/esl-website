@@ -14,7 +14,10 @@ import StyledMethodsBackground from "../components/backgroundimages/methodsHero"
 
 const MethodPage = () => (
   <Layout>
-    <SEO title="Service Locating Methods" />
+    <SEO
+      title="Service Locating Methods"
+      description="We use the latest methods and cutting edge technologies on all our Underground Utility Locating Services. Know the location of your service utilities today."
+    />
     <StyledMethodsBackground />
     <Razor>
       <MainContainer>
