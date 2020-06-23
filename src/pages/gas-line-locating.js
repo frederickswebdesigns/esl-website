@@ -97,7 +97,7 @@ const GasPage = () => (
           </p>
           <Link to="/">Go back to the homepage</Link>
         </div>
-        <QuoteForm formWidth="400px" />
+        <QuoteForm formTitle="gas" formWidth="400px" />
       </MainContainer>
     </Razor>
   </Layout>

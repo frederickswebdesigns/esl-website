@@ -99,7 +99,7 @@ const CablePipePage = () => (
 
           <Link to="/">Go back to the homepage</Link>
         </div>
-        <QuoteForm formWidth="400px" />
+        <QuoteForm formWidth="cable-and-pipe" />
       </MainContainer>
     </Razor>
   </Layout>

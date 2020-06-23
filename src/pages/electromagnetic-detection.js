@@ -81,7 +81,7 @@ const ElectroDectPage = () => (
 
           <Link to="/">Go back to the homepage</Link>
         </div>
-        <QuoteForm formWidth="400px" />
+        <QuoteForm formTitle="electroMagnetic" formWidth="400px" />
       </MainContainer>
     </Razor>
   </Layout>

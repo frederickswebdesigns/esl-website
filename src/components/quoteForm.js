@@ -50,10 +50,10 @@ const StyledQuoteForm = styled.aside`
     margin: 0px;
   }
 `
-const QuoteForm = () => (
+const QuoteForm = props => (
   <StyledQuoteForm>
     <form
-      name="contact"
+      name={`${props.formTitle}`}
       method="post"
       data-netlify="true"
       data-netlify-honeypot="bot-field"

@@ -66,7 +66,7 @@ const ElectroDectPage = () => (
           </ul>
           <Link to="/">Go back to the homepage</Link>
         </div>
-        <QuoteForm formWidth="400px" />
+        <QuoteForm formTitle="mapping" formWidth="400px" />
       </MainContainer>
     </Razor>
   </Layout>

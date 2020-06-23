@@ -104,7 +104,7 @@ const AboutPage = () => (
           </p>
           <Link to="/">Go back to the homepage</Link>
         </div>
-        <QuoteForm />
+        <QuoteForm formTitle="about" />
       </MainContainer>
     </Razor>
   </Layout>
